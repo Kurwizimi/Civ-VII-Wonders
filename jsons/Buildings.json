@@ -1,25 +1,20 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+        "name": "Angkôrvôtt",
+        "isWonder": true,
+		"happiness" : 3,
+		"greatPersonPoints": {  "Great Artist": 1,
+								"Great Scientist": 1,
+								"Great Engineer": 1,
+		 						"Great Merchant": 1,
+								"Great General": 1,
+								"Great Admiral": 1},
+		"specialistSlots": {"Artist": 1,
+							"Scientist": 1,
+							"Engineer": 1,
+							"Merchant": 1},
+        "requiredTech": "Philosophy",
+        "uniques": ["Must be next to [River]"]
+        "quote": "'All beings who are plunged into the ocean of existence, may I draw them out by virtue of this good work.' - Jayavarman VII, To Prohm"
+    },
 ]
