@@ -14,7 +14,57 @@
 							"Engineer": 1,
 							"Merchant": 1},
         "requiredTech": "Philosophy",
-        "uniques": ["Must be next to [River]"]
+        "uniques": ["Comment [Provides 1 of all Specialist slots]","Comment [Provides 1 of all Great People Points]", "Must be next to [River]"],
         "quote": "'All beings who are plunged into the ocean of existence, may I draw them out by virtue of this good work.' - Jayavarman VII, To Prohm"
+    },
+	{
+        "name": "Byrsa",
+        "isWonder": true,
+		"gold" : 2,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Engineering",
+        "uniques": ["Gain a free [Walls] [in all coastal cities]", "Connects trade routes over water", "[+50]% Gold from Great Merchant trade missions", "Must be next to [Coast]"],
+        "quote": "'There are to be seen at this day certain ruins of the city walls.' - Leo Africanus"
+    },
+	{
+        "name": "Colosseo",
+        "isWonder": true,
+		"culture" : 3,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Drama and Poetry",
+        "uniques": ["[+1 Happiness] <for every [ [[Happiness] Buildings] / 2 ]> <hidden from users>", "Comment [+1 [Happiness] for every 2 [Happiness] Buildings]"], 
+		//+2 Happiness on all happines buildings in this city? +1 Happiness on all happines and culture in this city?
+        "quote": "'While stands the Colosseum, Rome shall stand. When falls the Colosseum, Rome shall fall, and when Rome falls, with it shall fall the world' - The Venerable Bede"
+    },
+
+	{
+        "name": "Kolossòs Rhódios",
+        "isWonder": true,
+		"gold" : 3,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Currency",
+        "uniques": ["[+1 Gold] from [resource] tiles [in this city]", "Must be next to [Coast]"], 
+        "quote": "'He doth bestride the narrow world, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare"
+    },
+
+	{
+        "name": "Dur-Sharrukin",
+        "isWonder": true,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"greatPersonPoints": { "Great General": 1},
+        "requiredTech": "Bronze Working",
+        "uniques": ["[+2 Science] from [Fort] tiles [in all cities]", "[+4 Science] from [Citadel] tiles [in all cities]", "[Military] Units adjacent to this city heal [5] HP per turn when healing"], 
+        "quote": "'From this day forward, your pronouncement shall be unchangeable, to raise or bring low - these shall be in your hand.' - Enūma Eliš"
+    },
+
+	{
+        "name": "Emile Bell",
+        "isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Metal Casting",
+        "uniques": ["[+25]% [Food] [in all cities] <for [5] turns> <upon declaring friendship>", "[+20]% growth [in all cities] <for [5] turns> <upon declaring friendship>"], 
+        "quote": "'In the midst of the snow, the light of Goreyo hovers; An icy temple bell resounds echoes of the old kingdom.' - Hwang Jini"
     },
 ]
