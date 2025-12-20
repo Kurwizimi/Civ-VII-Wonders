@@ -67,4 +67,49 @@
         "uniques": ["[+25]% [Food] [in all cities] <for [5] turns> <upon declaring friendship>", "[+20]% growth [in all cities] <for [5] turns> <upon declaring friendship>"], 
         "quote": "'In the midst of the snow, the light of Goreyo hovers; An icy temple bell resounds echoes of the old kingdom.' - Hwang Jini"
     },
+
+	{
+        "name": "Gate of All Nations",
+        "isWonder": true,
+		"happiness": 2,
+		"greatPersonPoints": { "Great General": 1},
+        "requiredTech": "Mathematics",
+        "uniques": ["Empire enters a [7]-turn Golden Age <upon declaring war on [Major] Civilizations> <modified by game speed>",
+					"Empire enters a [7]-turn Golden Age <upon being declared war on by [Major] Civilizations> <modified by game speed>"], 
+        "quote": "'No man is foolish enough to desire War over peace: for in peace sons bury fathers, but in War fathers bury sons.' - Croesus of Lydia"
+    },
+
+	{
+        "name": "Library of Alexandria",
+        "isWonder": true,
+		"science": 4,
+		"greatPersonPoints": { "Great Scientist": 1},
+        "requiredTech": "Mathematics",
+        "uniques": ["[+1 Science] from all [Science] buildings", "[+1 Science] per [3] population [in this city]"], 
+        "quote": "'The place for the cure of the soul.' - Inscription over the door at the library"
+    },
+
+	{
+        "name": "Lighthouse of Alexandria",
+        "isWonder": true,
+		"gold": 2,
+		"greatPersonPoints": { "Great Merchant": 2},
+        "requiredTech": "Optics",
+        "uniques": ["[+1] Sight <for [Water] units>", "Land units may cross [Ocean] tiles after the first [Great Merchant] is earned"], 
+        "quote": "'He built the tower at Pharos, the greatest and most beautiful work of all, so that a light might shine for sailors far across the sea.' - Lucian of Samosata"
+    },
+
+	{
+        "name": "Great Stele",
+        "isWonder": true,
+		"production": 2,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Calendar",
+        "uniques": ["Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <hidden from users>",
+					"Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <starting from the [Medieval era]> <hidden from users>",
+					"Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <starting from the [Industrial era]> <hidden from users>",
+					"Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <starting from the [Atomic era]> <hidden from users>",
+					"Comment [Gain 200 [Gold] upon constructing a Wonder in all cities, increasing by 200 [Gold] every 2 eras]"], 
+        "quote": "'May the might of the Lord cause no enemy to resist me, no enemy to follow me.' - Aksumite Inscription"
+    },
 ]
