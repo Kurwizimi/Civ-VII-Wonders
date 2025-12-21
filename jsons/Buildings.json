@@ -95,7 +95,7 @@
 		"gold": 2,
 		"greatPersonPoints": { "Great Merchant": 2},
         "requiredTech": "Optics",
-        "uniques": ["[+1] Sight <for [Water] units>", "Land units may cross [Ocean] tiles after the first [Great Merchant] is earned"], 
+        "uniques": ["[+1] Sight <for [Water] units>", "Land units may cross [Ocean] tiles after the first [Great Merchant] is earned", "Must be next to [Coast]"], 
         "quote": "'He built the tower at Pharos, the greatest and most beautiful work of all, so that a light might shine for sailors far across the sea.' - Lucian of Samosata"
     },
 
@@ -111,5 +111,68 @@
 					"Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <starting from the [Atomic era]> <hidden from users>",
 					"Comment [Gain 200 [Gold] upon constructing a Wonder in all cities, increasing by 200 [Gold] every 2 eras]"], 
         "quote": "'May the might of the Lord cause no enemy to resist me, no enemy to follow me.' - Aksumite Inscription"
+    },
+
+	{
+        "name": "Ha'amonga 'a Maui",
+        "isWonder": true,
+		"culture": 5,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Optics",
+        "uniques": ["[+1 Food, +1 Culture] from [Fishing boats] tiles [in this city]", "Must be next to [Coast]"], 
+        "quote": "'I am the River, the River is me.' - Whanganui saying"
+    },
+
+	{
+        "name": "Hanging Gardens of Sennacherib",
+        "isWonder": true,
+		"culture": 1,
+		"food": 2,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Wheel",
+        "uniques": ["[+1 Food] from [Farm] tiles [in this city]", "[+10]% growth [in all cities]", "Must be next to [River]"], 
+        "quote": "'The canal-water gushes from above into the gardens; fragrance pervades the walkways, streams of water as numerous as the stars of heaven flow in the pleasure garden.' - Ashurbanipal"
+    },
+
+	{
+        "name": "Mausoleum at Halicarnassus",
+        "isWonder": true,
+		"production": 3,
+		"greatPersonPoints": { "Great General": 1},
+        "requiredTech": "Iron Working",
+        "uniques": ["All newly-trained [Mounted] units [in all cities] receive the [Artemisia] promotion", "All newly-trained [Armored] units [in all cities] receive the [Artemisia] promotion",
+					"Comment [The first time a Mounted or Armoured unit is destroyed, it will respawn at your capital.]", "Must be next to [Coast]"], 
+        "quote": "'A vast tomb lies over me in Halicarnassus, of such dimensions, of such exquisite beauty as no other shade can boast.' - Lucian of Samosata"
+    },
+
+	{
+        "name": "Mausoleum of Theodoric",
+        "isWonder": true,
+		"production": 3,
+		"greatPersonPoints": { "Great General": 1},
+        "requiredTech": "Horseback Riding",
+        "uniques": ["[+100]% Yield from pillaging tiles", "[+50]% Health from pillaging tiles", "Must be next to [Coast]"], 
+        "quote": "'Better it is for every man to avenge his friend than mourn him.' - Beowulf"
+    },
+
+	{
+        "name": "Monks Mound",
+        "isWonder": true,
+		"food": 3,
+		"greatPersonPoints": { "Great Scientist": 1},
+        "requiredTech": "Currency",
+        "uniques": ["[+50]% [Strategic resource] resource production <in this city>", "Creates a [Great Mound] improvement on a specific tile", "Must be next to [River]"], 
+        "quote": "'And here he lay, older than the hill he rested on.' - Zitkala-Sa"
+    },
+
+	
+	{
+        "name": "Mundo Perdido",
+        "isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": { "Great Scientist": 1},
+        "requiredTech": "Currency",
+        "uniques": ["[+1 Science] from [{inproved} {Vegetated}] tiles [in this city]", "[+2 Happiness] [in all cities] <within [2] tiles of a [Jungle]>", "Must have an owned [Jungle] within [2] tiles"], 
+        "quote": "'My light is great. I am the path and the foothold of the people, because my eyes are of metal, while my teeth glitter with jewels.' - Popol Vuh"
     },
 ]
