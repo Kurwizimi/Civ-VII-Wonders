@@ -1,0 +1,18 @@
+[
+    {
+		    "name": "Great Mound",
+		    "type": "Improvement",
+		    "faith": 2,
+        "food": 1,
+		    "terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+		    "uniques": ["[+2 Food] for each adjacent [Bonus resource]", "[+2 Gold] for each adjacent [Luxury resource]", "[+2 Production] for each adjacent [Strategic resource]",
+                "Cannot be built on [Hill] tiles",
+                "Tile provides yield without assigned population",
+                "Pillaging this improvement yields approximately [+100 Gold]",
+                "Will not be replaced by automated units"],
+	},
+
+
+
+
+]
