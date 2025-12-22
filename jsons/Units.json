@@ -8,26 +8,100 @@
 		"cost": 56,
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "Unavailable", "Unbuildable"],
 		"attackSound": "arrow"
 	},
   {
-		"name": "Horseman",
+		"name": "Horseman (Halicarnassus)",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
-		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Unavailable", "Unbuildable"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-  
 
+	{
+		"name": "Knight (Halicarnassus)",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Unavailable", "Unbuildable"],
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "Lancer (Halicarnassus)",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit", "Unavailable", "Unbuildable"],
+		"promotions": ["Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+
+	},
+	{
+		"name": "Cavalry (Halicarnassus)",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Unavailable", "Unbuildable"],
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "Landship (Halicarnassus)",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredResource": "Oil",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "Unavailable", "Unbuildable"],
+		"attackSound": "tankshot"
+	},
+
+	{
+		"name": "Tank (Halicarnassus)",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 70,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "Unavailable", "Unbuildable"],
+		"attackSound": "tankshot"
+	},
+  
+	{
+		"name": "Modern Armor (Halicarnassus)",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Unavailable", "Unbuildable"],
+		"attackSound": "tankshot"
+	},
 
 
 
