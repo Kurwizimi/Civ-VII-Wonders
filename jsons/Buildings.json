@@ -3,16 +3,8 @@
         "name": "Angkôrvôtt",
         "isWonder": true,
 		"happiness" : 3,
-		"greatPersonPoints": {  "Great Artist": 1,
-								"Great Scientist": 1,
-								"Great Engineer": 1,
-		 						"Great Merchant": 1,
-								"Great General": 1,
-								"Great Admiral": 1},
-		"specialistSlots": {"Artist": 1,
-							"Scientist": 1,
-							"Engineer": 1,
-							"Merchant": 1},
+		"greatPersonPoints": {  "Great Artist": 1, "Great Scientist": 1, "Great Engineer": 1, "Great Merchant": 1, "Great General": 1, "Great Admiral": 1},
+		"specialistSlots": {"Artist": 1, "Scientist": 1, "Engineer": 1, "Merchant": 1},
         "requiredTech": "Philosophy",
         "uniques": ["Comment [Provides 1 of all Specialist slots]","Comment [Provides 1 of all Great People Points]", "Must be next to [River]"],
         "quote": "'All beings who are plunged into the ocean of existence, may I draw them out by virtue of this good work.' - Jayavarman VII, To Prohm"
@@ -64,7 +56,8 @@
 		"culture": 1,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Metal Casting",
-        "uniques": ["[+25]% [Food] [in all cities] <for [5] turns> <upon declaring friendship>", "[+20]% growth [in all cities] <for [5] turns> <upon declaring friendship>"], 
+        "uniques": ["[+25]% [Food] [in all cities] <for [7] turns> <upon declaring friendship> <(modified by game speed)>",
+					"[+20]% growth [in all cities] <for [7] turns> <upon declaring friendship> <(modified by game speed)>"], 
         "quote": "'In the midst of the snow, the light of Goreyo hovers; An icy temple bell resounds echoes of the old kingdom.' - Hwang Jini"
     },
 
@@ -74,8 +67,8 @@
 		"happiness": 2,
 		"greatPersonPoints": { "Great General": 1},
         "requiredTech": "Mathematics",
-        "uniques": ["Empire enters a [7]-turn Golden Age <upon declaring war on [Major] Civilizations> <modified by game speed>",
-					"Empire enters a [7]-turn Golden Age <upon being declared war on by [Major] Civilizations> <modified by game speed>"], 
+        "uniques": ["Empire enters a [7]-turn Golden Age <upon declaring war on [Major] Civilizations> <(modified by game speed)>",
+					"Empire enters a [7]-turn Golden Age <upon being declared war on by [Major] Civilizations> <(modified by game speed)>"], 
         "quote": "'No man is foolish enough to desire War over peace: for in peace sons bury fathers, but in War fathers bury sons.' - Croesus of Lydia"
     },
 
@@ -105,11 +98,11 @@
 		"production": 2,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Calendar",
-        "uniques": ["Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <hidden from users>",
-					"Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <starting from the [Medieval era]> <hidden from users>",
-					"Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <starting from the [Industrial era]> <hidden from users>",
-					"Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <starting from the [Atomic era]> <hidden from users>",
-					"Comment [Gain 200 [Gold] upon constructing a Wonder in all cities, increasing by 200 [Gold] every 2 eras]"], 
+        "uniques": ["Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <(modified by game speed)> <hidden from users>",
+					"Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <(modified by game speed)> <starting from the [Medieval era]> <hidden from users>",
+					"Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <(modified by game speed)> <starting from the [Industrial era]> <hidden from users>",
+					"Gain [200] [Gold] <upon constructing [Wonder] [in all cities]> <(modified by game speed)> <starting from the [Atomic era]> <hidden from users>",
+					"Comment [Gain 200 [Gold] upon constructing a Wonder in all cities, increasing by 200 [Gold] every 2 eras (modified by game speed)]"], 
         "quote": "'May the might of the Lord cause no enemy to resist me, no enemy to follow me.' - Aksumite Inscription"
     },
 
@@ -140,7 +133,10 @@
 		"production": 3,
 		"greatPersonPoints": { "Great General": 1},
         "requiredTech": "Iron Working",
-        "uniques": ["All newly-trained [Mounted] units [in all cities] receive the [Artemisia] promotion", "All newly-trained [Armored] units [in all cities] receive the [Artemisia] promotion",
+        "uniques": ["All newly-trained [Chariot Archer] units [in all cities] receive the [Artemisia I] promotion", "All newly-trained [Horseman] units [in all cities] receive the [Artemisia II] promotion",
+					"All newly-trained [Knight] units [in all cities] receive the [Artemisia III] promotion", "All newly-trained [Lancer] units [in all cities] receive the [Artemisia IV] promotion",
+					"All newly-trained [Cavalry] units [in all cities] receive the [Artemisia V] promotion", "All newly-trained [Landship] units [in all cities] receive the [Artemisia VI] promotion",	
+					"All newly-trained [Tank] units [in all cities] receive the [Artemisia VII] promotion", "All newly-trained [Modern Armor] units [in all cities] receive the [Artemisia VIII] promotion",
 					"Comment [The first time a Mounted or Armoured unit is destroyed, it will respawn at your capital.]", "Must be next to [Coast]"], 
         "quote": "'A vast tomb lies over me in Halicarnassus, of such dimensions, of such exquisite beauty as no other shade can boast.' - Lucian of Samosata"
     },
@@ -164,7 +160,6 @@
         "uniques": ["[+50]% [Strategic resource] resource production <in this city>", "Creates a [Great Mound] improvement on a specific tile", "Must be next to [River]"], 
         "quote": "'And here he lay, older than the hill he rested on.' - Zitkala-Sa"
     },
-
 	
 	{
         "name": "Mundo Perdido",
@@ -172,7 +167,7 @@
 		"culture": 1,
 		"greatPersonPoints": { "Great Scientist": 1},
         "requiredTech": "Currency",
-        "uniques": ["[+1 Science] from [{inproved} {Vegetated}] tiles [in this city]", "[+2 Happiness] [in all cities] <within [2] tiles of a [Jungle]>", "Must have an owned [Jungle] within [2] tiles"], 
+        "uniques": ["[+1 Science] from [{improved} {Vegetated}] tiles [in this city]", "[+2 Happiness] [in all cities] <within [2] tiles of a [Jungle]>", "Must have an owned [Jungle] within [2] tiles"], 
         "quote": "'My light is great. I am the path and the foothold of the people, because my eyes are of metal, while my teeth glitter with jewels.' - Popol Vuh"
     },
 ]
