@@ -122,7 +122,7 @@
 		"culture": 1,
 		"food": 2,
 		"greatPersonPoints": { "Great Engineer": 1},
-        "requiredTech": "Wheel",
+        "requiredTech": "The Wheel",
         "uniques": ["[+1 Food] from [Farm] tiles [in this city]", "[+10]% growth [in all cities]", "Must be next to [River]"], 
         "quote": "'The canal-water gushes from above into the gardens; fragrance pervades the walkways, streams of water as numerous as the stars of heaven flow in the pleasure garden.' - Ashurbanipal"
     },
