@@ -238,7 +238,7 @@
 		"happiness": 2,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Philosophy",
-        "uniques": ["Comment [+1 [Culture] for every 5 [Happiness]]", "[+1 Culture] <for every [[[Happiness] Per Turn]/5] <hidden from users>", "Must be next to [Plains]"], 
+        "uniques": ["Comment [+1 [Culture] for every 5 [Happiness]]", "[+1 Culture] <for every [[[Happiness] Per Turn]/5]> <hidden from users>", "Must be next to [Plains]"], 
         "quote": "'All religions should reside everywhere, for all of them desire self-control and purity of heart!' - Ashoka"
     },
 
