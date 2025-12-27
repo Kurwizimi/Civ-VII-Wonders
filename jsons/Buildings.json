@@ -34,7 +34,7 @@
         "isWonder": true,
 		"gold" : 3,
 		"greatPersonPoints": { "Great Merchant": 1},
-        "requiredTech": "Currency",
+        "requiredTech": "Optics",
         "uniques": ["[+1 Gold] from [resource] tiles [in this city]", "Must be next to [Coast]"], 
         "quote": "'He doth bestride the narrow world, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare"
     },
@@ -111,7 +111,7 @@
         "isWonder": true,
 		"culture": 5,
 		"greatPersonPoints": { "Great Artist": 1},
-        "requiredTech": "Optics",
+        "requiredTech": "Sailing",
         "uniques": ["[+1 Food, +1 Culture] from [Fishing boats] tiles [in this city]", "Must be next to [Coast]"], 
         "quote": "'I am the River, the River is me.' - Whanganui saying"
     },
@@ -169,5 +169,96 @@
         "requiredTech": "Currency",
         "uniques": ["[+1 Science] from [{improved} {Vegetated}] tiles [in this city]", "[+2 Happiness] [in all cities] <within [2] tiles of a [Jungle]>", "Must have an owned [Jungle] within [2] tiles"], 
         "quote": "'My light is great. I am the path and the foothold of the people, because my eyes are of metal, while my teeth glitter with jewels.' - Popol Vuh"
+    },
+
+	{
+        "name": "Nalanda",
+        "isWonder": true,
+		"science": 1,
+		"faith": 2,
+		"greatPersonPoints": { "Great Scientist": 1},
+        "requiredTech": "Drama and Poetry",
+        "uniques": ["Gain a free [Temple] [in this city]", "Free [Great Scientist] appears", "Must be next to [Plains]"], 
+        "quote": "'If you desire ease, forsake learning. If you desire learning, forsake ease.' - Nagarjuna"
+    },
+
+	{
+        "name": "Oracle",
+        "isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": { "Great Scientist": 1},
+        "requiredTech": "Construction",
+        "uniques": ["Empire enters golden age", "Comment [Gain [20] [Culture] upon ending a Golden Age, incresing by 10 [Culture] every era]", "Must be on [Hill]", 
+			"Gain [20] [Culture] <upon ending a Golden Age> <during the [Ancient era]> <hidden from users>",
+			"Gain [30] [Culture] <upon ending a Golden Age> <during the [Classical era]> <hidden from users>",
+			"Gain [40] [Culture] <upon ending a Golden Age> <during the [Medieval era]> <hidden from users>",
+			"Gain [50] [Culture] <upon ending a Golden Age> <during the [Renaissance era]> <hidden from users>",
+			"Gain [60] [Culture] <upon ending a Golden Age> <during the [Industrial era]> <hidden from users>",
+			"Gain [70] [Culture] <upon ending a Golden Age> <during the [Modern era]> <hidden from users>",
+			"Gain [80] [Culture] <upon ending a Golden Age> <during the [Atomic era]> <hidden from users>",
+			"Gain [90] [Culture] <upon ending a Golden Age> <during the [Information era]> <hidden from users>",
+			"Gain [100] [Culture] <upon ending a Golden Age> <during the [Future era]> <hidden from users>"], 
+        "quote": "'Remain less interested in who we imagine ourselves to be than in what we can do for one another.' - Paul Gilroy"
+    },
+
+	{
+        "name": "Petra",
+        "isWonder": true,
+		"gold": 2,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Writing",
+        "uniques": ["[+1 Production] from [{Rough terrain} {Desert}] tiles [in all cities]", "[+1 Gold] from [{Open terrain} {Desert}] tiles [in all cities]",
+					"[+1 Production, +1 Gold] from [Desert] tiles [in this city]", "Must be next to [Desert]"], 
+        "quote": "'Sedentary life is civilization's goal. It marks the end of its life and heralds its corruption.' - Ibn Khaldun"
+    },
+
+	{
+        "name": "Pyramid of the Sun",
+        "isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Mathematics",
+        "uniques": ["[+2 Culture] from all [Culture] buildings <in this city>", "Must not be on [Hill]"], 
+        "quote": "'The warriors' blood flowed like water and gathered in pools.' - Mexica Account of Toxcatl"
+    },
+
+	{
+        "name": "Pyramids",
+        "isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Masonry",
+        "uniques": ["[+1 Production, +2 Gold] from [River] tiles [in this city]", "Must be next to [River]", "Must not be on [Tundra]"], 
+        "quote": "'Soldiers, from the summit of these pyramids, forty centuries of history look down upon you!' - Napoleon Bonaparte"
+    },
+
+	{
+        "name": "Sanchi Stupa",
+        "isWonder": true,
+		"happiness": 2,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Philosophy",
+        "uniques": ["Comment [+1 [Culture] for every 5 [Happiness]]", "[+1 Culture] <for every [[[Happiness] Per Turn]/5] <hidden from users>", "Must be next to [Plains]"], 
+        "quote": "'All religions should reside everywhere, for all of them desire self-control and purity of heart!' - Ashoka"
+    },
+
+	{
+        "name": "Terracotta Army",
+        "isWonder": true,
+		"production": 2,
+        "requiredTech": "Iron Working",
+        "uniques": ["Free [Great General] appears", "[+50]% XP gained from combat", "Must be next to [Grassland]"], 
+        "quote": "'After the battle many new ghosts cry.' - Du Fu"
+    },
+
+	{
+        "name": "Weiyang Palace",
+        "isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Drama and Poetry",
+        "uniques": ["Gifts of Gold to City-States generate [+20]% more Influence", "Comment [Gain 5 Influence with a Land unit gift to a City-State]",
+					"Gain [5] Influence with a [Land] gift to a City-State <hidden from users>", "Must be next to [Grassland]"], 
+        "quote": "'Heaven is lasting. Earth endures. Time has no limit. Regret goes on and on without end.' - Bai Juyi"
     },
 ]
