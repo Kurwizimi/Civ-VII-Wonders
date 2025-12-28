@@ -102,6 +102,18 @@
 		"attackSound": "tankshot"
 	},
 
+	{
+		"name": "Ulema",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can Spread Religion <for [4] movement> <[3] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"When spreading religion to a city, gain [15] times the amount of followers of other religions as [Science]",
+			"[-1] Sight", "Unavailable", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 2000
+	},
+
 
 
 ]
