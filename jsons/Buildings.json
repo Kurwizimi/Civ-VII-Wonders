@@ -270,7 +270,7 @@
 		"happiness": 3,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Printing Press",
-        "uniques": ["[+1 Food] from all [Happiness] buildings [in all cities]", "Must be next to [Coast]"], 
+        "uniques": ["[+1 Food] from all [Happiness] buildings <in all cities>", "Must be next to [Coast]"], 
         "quote": "'The true nature of emptiness is the nature of no birth and no death. No being, no non-being.' - The Heart Sūtra"
     },
 
@@ -283,17 +283,6 @@
         "requiredTech": "Guilds",
         "uniques": ["[+2 Happiness] in cities on [River] tiles", "Must be next to [River]"], 
         "quote": "' mortal ripens like corn, like corn he springs up again.' - The Katha Upanishad"
-    },
-
-	{
-        "name": "Brihadeeswarar Temple",
-        "isWonder": true,
-		"culture": 1,
-		"faith": 3,
-		"greatPersonPoints": { "Great Merchant": 1},
-        "requiredTech": "Guilds",
-        "uniques": ["[+2 Happiness] in cities on [River] tiles", "Must be next to [River]"], 
-        "quote": "'A mortal ripens like corn, like corn he springs up again.' - The Katha Upanishad"
     },
 
 	{
@@ -332,7 +321,7 @@
 		"gold": 2,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Economics",
-        "uniques": ["[+3 Gold] from [Luxury resource] [in this city]","[+1 Gold] from each Trade Route"],
+        "uniques": ["[+3 Gold] from [Luxury resource] tiles [in this city]","[+1 Gold] from each Trade Route"],
 		"quote": "'We take the golden road to Samarkand.' - James Elroy Flecker"
     },
 
