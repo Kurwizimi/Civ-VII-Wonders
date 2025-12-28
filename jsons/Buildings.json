@@ -261,4 +261,100 @@
 					"Gain [5] Influence with a [Land] gift to a City-State <hidden from users>", "Must be next to [Grassland]"], 
         "quote": "'Heaven is lasting. Earth endures. Time has no limit. Regret goes on and on without end.' - Bai Juyi"
     },
+
+
+
+	{
+        "name": "Borobodur",
+        "isWonder": true,
+		"happiness": 3,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Printing Press",
+        "uniques": ["[+1 Food] from all [Happiness] buildings [in all cities]", "Must be next to [Coast]"], 
+        "quote": "'The true nature of emptiness is the nature of no birth and no death. No being, no non-being.' - The Heart Sūtra"
+    },
+
+	{
+        "name": "Brihadeeswarar Temple",
+        "isWonder": true,
+		"culture": 1,
+		"faith": 3,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Guilds",
+        "uniques": ["[+2 Happiness] in cities on [River] tiles", "Must be next to [River]"], 
+        "quote": "' mortal ripens like corn, like corn he springs up again.' - The Katha Upanishad"
+    },
+
+	{
+        "name": "Brihadeeswarar Temple",
+        "isWonder": true,
+		"culture": 1,
+		"faith": 3,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Guilds",
+        "uniques": ["[+2 Happiness] in cities on [River] tiles", "Must be next to [River]"], 
+        "quote": "'A mortal ripens like corn, like corn he springs up again.' - The Katha Upanishad"
+    },
+
+	{
+        "name": "El Escorial",
+        "isWonder": true,
+		"happiness": 3,
+		"greatPersonPoints": { "Great Admiral": 1},
+        "requiredTech": "Astronomy",
+        "uniques": ["[+1 Happiness, +2 Culture] in cities on [Coastal] tiles", "Must be on [Hill]"], 
+        "quote": "'Law is nothing other than the command of the sovereign in the exercise of his power.' - Jean Bodin"
+    },
+
+	{
+        "name": "Erdene Zuu",
+        "isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": { "Great General": 2},
+        "requiredTech": "Chivalry",
+        "uniques": ["Earn [50]% of killed [Mounted] unit's [Cost] as [Culture]", "Gain [20] [Culture] <upon gaining a [Mounted] unit>"], 
+        "quote": "'O ye conquerors and your sons, O ye gurus and devas: Out of your great love, lead us along the Path.' - The Tibetan Book of the Dead"
+    },
+
+	{
+        "name": "Forbidden City",
+        "isWonder": true,
+		"culture": 4,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Printing Press",
+        "uniques": ["[+1 Culture, +1 Gold] from every [Walls]","[+1 Culture, +1 Gold] from every [Castle]","[+1 Culture, +1 Gold] from every [Arsenal]", "[+1 Culture, +1 Gold] from every [Military Base]"],
+		"quote": "'The past is the treasure, time is its hiding place.' - Gail Mazur"
+    },
+
+	{
+        "name": "Grand Bazaar",
+        "isWonder": true,
+		"gold": 2,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Economics",
+        "uniques": ["[+3 Gold] from [Luxury resource] [in this city]","[+1 Gold] from each Trade Route"],
+		"quote": "'We take the golden road to Samarkand.' - James Elroy Flecker"
+    },
+
+	{
+        "name": "Hale o Keawe",
+        "isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Compass",
+        "uniques": ["[+2 Culture] from every [Lighthouse]","[+2 Culture] from every [Harbor]","[+2 Culture] from every [Seaport]","Must be next to [Coast]"],
+		"quote": "'The life of the land is perpetuated in righteousness.' - Kamehameha I"
+    },
+
+	{
+        "name": "Havana Harbor",
+        "isWonder": true,
+		"gold": 2,
+		"greatPersonPoints": { "Great Admiral": 1},
+        "requiredTech": "Astronomy",
+        "uniques": ["[+2 Culture] from every [Lighthouse]","[+2 Culture] from every [Harbor]","[+2 Culture] from every [Seaport]","Must be next to [Coast]"],
+		"quote": "'The life of the land is perpetuated in righteousness.' - Kamehameha I"
+    },
+
+	
 ]
