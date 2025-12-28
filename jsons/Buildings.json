@@ -352,8 +352,68 @@
 		"gold": 2,
 		"greatPersonPoints": { "Great Admiral": 1},
         "requiredTech": "Astronomy",
-        "uniques": ["[+2 Culture] from every [Lighthouse]","[+2 Culture] from every [Harbor]","[+2 Culture] from every [Seaport]","Must be next to [Coast]"],
-		"quote": "'The life of the land is perpetuated in righteousness.' - Kamehameha I"
+        "uniques": ["[+30]% [Gold] [in all cities] <on foreign continents>","Must be next to [Coast]"],
+		"quote": "'In the immediate nearness of the gold, all else had been forgotten.' - Robert Louis Stevenson"
+    },
+
+	{
+        "name": "House of Wisdom",
+        "isWonder": true,
+		"science": 3,
+		"greatPersonPoints": { "Great Scientist": 1},
+        "requiredTech": "Education",
+        "uniques": ["[3] free [Ulema] units appear"],
+		"quote": "'Do not mix the truth with falsehood or conceal the truth while you know it.' - Ayat 42, the Holy Koran"
+    },
+
+	{
+        "name": "Machu Pikchu",
+        "isWonder": true,
+		"gold": 4,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Architecture",
+        "uniques": ["[+1 Gold, +1 Culture] from [Land] tiles [in this city] <for every adjacent [Mountain]>", "Must have an owned [Mountain] within [2] tiles"],
+		"quote": "'Thou who dwell in the high heavens, among the tempest's clouds - accept our sacrifice.' - Inca prayer to Viracocha"
+    },
+
+	{
+        "name": "Nan Madol",
+        "isWonder": true,
+		"cultire": 1,
+		"greatPersonPoints": { "Great Admiral": 1},
+        "requiredTech": "Civil Service",
+        "uniques": ["[+3 Production, +3 Culture] [in all coastal cities]"],
+		"quote": "'Mother of my house, don't you stir. You shall wait for the setting of sunset glow, when gone to sleep is the surface of the seae.' - Chuuk Chant"
+    },
+
+	{
+        "name": "Notre Dame",
+        "isWonder": true,
+		"happiness": 4,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Physics",
+        "uniques": ["[+2 Culture] from every specialist [in all cities] <during a Golden Age>", "Empire enters golden age"],
+		"quote": "'The echoes of our glory and our losses, of our victories and our disasters, have always resounded under those vaults.' - André Chamson"
+    },
+
+	{
+        "name": "Reykjaholt",
+        "isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Physics",
+        "uniques": ["[+3]% Production when constructing [All] units [in this city] <for every [Adopted [All] Policies]>", "Must be next to [Tundra]"],
+		"quote": "'Sturla was often at Reykjaholt, and gave much thought to having copies made of those saga books which Snorri was writing.' - Íslendinga saga"
+    },
+
+	{
+        "name": "Rila Monestary",
+        "isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Steel",
+        "uniques": ["[+3]% Production when constructing [All] units [in this city] <for every [Adopted [All] Policies]>", "Must be next to [Tundra]"],
+		"quote": "'Sturla was often at Reykjaholt, and gave much thought to having copies made of those saga books which Snorri was writing.' - Íslendinga saga"
     },
 
 	
