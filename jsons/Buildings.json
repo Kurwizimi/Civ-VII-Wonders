@@ -340,7 +340,7 @@
         "isWonder": true,
 		"gold": 2,
 		"greatPersonPoints": { "Great Admiral": 1},
-        "requiredTech": "Astronomy",
+        "requiredTech": "Navigation",
         "uniques": ["[+30]% [Gold] [in all cities] <on foreign continents>","Must be next to [Coast]"],
 		"quote": "'In the immediate nearness of the gold, all else had been forgotten.' - Robert Louis Stevenson"
     },
@@ -350,7 +350,7 @@
         "isWonder": true,
 		"science": 3,
 		"greatPersonPoints": { "Great Scientist": 1},
-        "requiredTech": "Education",
+        "requiredTech": "Theology",
         "uniques": ["[3] free [Ulema] units appear"],
 		"quote": "'Do not mix the truth with falsehood or conceal the truth while you know it.' - Ayat 42, the Holy Koran"
     },
@@ -372,7 +372,7 @@
 		"greatPersonPoints": { "Great Admiral": 1},
         "requiredTech": "Civil Service",
         "uniques": ["[+3 Production, +3 Culture] [in all coastal cities]"],
-		"quote": "'Mother of my house, don't you stir. You shall wait for the setting of sunset glow, when gone to sleep is the surface of the seae.' - Chuuk Chant"
+		"quote": "'Mother of my house, don't you stir. You shall wait for the setting of sunset glow, when gone to sleep is the surface of the sea.' - Chuuk Chant"
     },
 
 	{
@@ -398,11 +398,75 @@
 	{
         "name": "Rila Monestary",
         "isWonder": true,
-		"culture": 3,
+		"culture": 4,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Theology",
+        "uniques": ["[+40]% [Culture] [in all cities] <for [5] turns> <upon constructing [Wonder] [in all cities]>"],
+		"quote": "'The hermit’s wealth lies not in silver or gold, but in perfect poverty, denial of will, and boundless humility.' - John of Rila"
+    },
+
+	{
+        "name": "Serpent Mound",
+        "isWonder": true,
+		"culture": 1,
 		"greatPersonPoints": { "Great Engineer": 1},
-        "requiredTech": "Steel",
-        "uniques": ["[+3]% Production when constructing [All] units [in this city] <for every [Adopted [All] Policies]>", "Must be next to [Tundra]"],
-		"quote": "'Sturla was often at Reykjaholt, and gave much thought to having copies made of those saga books which Snorri was writing.' - Íslendinga saga"
+        "requiredTech": "Astronomy",
+        "uniques": ["[+2 Science, +2 Production] from [Great Improvement] tiles [in this city]", "Must be next to [Grassland]"],
+		"quote": "'Our Creator sang to us in the wind and the running water, in the bird songs, in children's laughter, and taught us music.' - Tenskwatawa"
+    },
+
+	{
+        "name": "Shwedagon Zedi Daw",
+        "isWonder": true,
+		"science": 4,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Education",
+        "uniques": ["[+2 Science] from [{improved} {Land}] tiles [in this city] <in tiles adjacent to [Fresh Water] tiles>", "Must be next to [Lakes]"],
+		"quote": "'I teach only suffering and the end of suffering.' - The Buddha"
+    },
+
+	{
+        "name": "Thành Huế",
+        "isWonder": true,
+		"culture": 4,
+		"specialistSlots": {"Administrator": 1,},
+        "requiredTech": "Gunpowder",
+        "uniques": ["Gain a free [Castle] [in this city]"], //Comment on unique specialist
+		"quote": "'If heroes remained home to die by the fire, would their names be inscribed upon bamboo and silk for all eternity?' - Trần Hưng Đạo"
+    },
+
+	{
+        "name": "Wat Xieng Thong",
+        "isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Theology",
+        "uniques": ["Comment [Gain 200 [Gold] upon expending a Great Person unit, doubled for [Great Prophet]s (modified by game speed)]",
+			"Gain [200] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)> <hidden from users>",
+			"Gain [200] [Gold] <upon expending a [Great Prophet] unit> <(modified by game speed)> <hidden from users>",
+			"Must be next to [River]"],
+		"quote": "'Let the rain fall according to season, and let the frogs cry out in the fields.' - The Legend of the Toad King"
+    },
+
+	{
+        "name": "Tomb of Askia",
+        "isWonder": true,
+		"gold": 2,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Banking",
+        "uniques": ["[Comment [+2 [Gold], +1 [Production] from Luxury resource tiles in this city, doules if in [Desert]",
+			"[+2 Gold, +1 Production] from [Luxury resource] tiles [in this city] <hidden from users>",
+			"[+2 Gold, +1 Production] from [{Desert} {Luxury resource}] tiles [in this city] <hidden from users>"],
+		"quote": "'Wherever you may be, death will overtake you. Even if you should be in towers of lofty construction.' - The Quran"
+    },
+
+	{
+        "name": "White Tower",
+        "isWonder": true,
+		"happiness": 4,
+        "requiredTech": "Physics",
+        "uniques": ["[+1 Culture, +1 Happiness] per [1] social policies adopted"],
+		"quote": "'To be a king and wear a crown is a thing more glorious to them that see it than it is pleasant to them that bear it.' - Elizabeth I"
     },
 
 	
