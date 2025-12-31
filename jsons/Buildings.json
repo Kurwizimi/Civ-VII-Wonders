@@ -350,7 +350,7 @@
         "isWonder": true,
 		"science": 3,
 		"greatPersonPoints": { "Great Scientist": 1},
-        "requiredTech": "Theology",
+        "requiredTech": "Machinery",
         "uniques": ["[3] free [Ulema] units appear"],
 		"quote": "'Do not mix the truth with falsehood or conceal the truth while you know it.' - Ayat 42, the Holy Koran"
     },
@@ -390,7 +390,7 @@
         "isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": { "Great Engineer": 1},
-        "requiredTech": "Physics",
+        "requiredTech": "Acoustics",
         "uniques": ["[+3]% Production when constructing [All] units [in this city] <for every [Adopted [All] Policies]>", "Must be next to [Tundra]"],
 		"quote": "'Sturla was often at Reykjaholt, and gave much thought to having copies made of those saga books which Snorri was writing.' - Íslendinga saga"
     },
