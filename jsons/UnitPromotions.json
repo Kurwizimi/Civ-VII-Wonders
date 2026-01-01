@@ -31,6 +31,18 @@
         "name": "Artemisia VIII",
         "uniques": ["Free [Modern Armor (Halicarnassus)] appears <upon being defeated>"]
     },
+  {
+		"name": "Battersea",
+    "uniques": ["Free [Privateer] appears  <when [Privateer]> <hidden from users>",
+		"Free [Frigate] appears  <when [Frigate]> <hidden from users>",
+		"Free [Ironclad] appears  <when [Ironclad]> <hidden from users>",
+		"Free [Submarine] appears <when [Submarine]> <hidden from users>",
+		"Free [Carrier] appears <when [Carrier]> <hidden from users>",
+		"Free [Battleship] appears  <when [Battleship]> <hidden from users>",
+		"Free [Destroyer] appears <when [Destroyer]><hidden from users>",
+		"Free [Nuclear Submarine] appears <when [Nuclear Submarine]> <hidden from users>",
+		"Free [Missile Cruiser] appears <when [Missile Cruiser]> <hidden from users>"]
+	},
 
 
 
