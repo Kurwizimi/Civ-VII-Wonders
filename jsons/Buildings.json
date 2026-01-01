@@ -1,4 +1,7 @@
 [
+
+		//Antiquity
+	
 	{
         "name": "Angkôrvôtt",
         "isWonder": true,
@@ -263,6 +266,7 @@
     },
 
 
+		//Exploration
 
 	{
         "name": "Borobodur",
@@ -454,7 +458,7 @@
 		"gold": 2,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Banking",
-        "uniques": ["[Comment [+2 [Gold], +1 [Production] from Luxury resource tiles in this city, doules if in [Desert]",
+        "uniques": ["[Comment [+2 [Gold], +1 [Production] from Luxury resource tiles in this city, doubled if in [Desert]]",
 			"[+2 Gold, +1 Production] from [Luxury resource] tiles [in this city] <hidden from users>",
 			"[+2 Gold, +1 Production] from [{Desert} {Luxury resource}] tiles [in this city] <hidden from users>"],
 		"quote": "'Wherever you may be, death will overtake you. Even if you should be in towers of lofty construction.' - The Quran"
@@ -467,6 +471,183 @@
         "requiredTech": "Physics",
         "uniques": ["[+1 Culture, +1 Happiness] per [1] social policies adopted"],
 		"quote": "'To be a king and wear a crown is a thing more glorious to them that see it than it is pleasant to them that bear it.' - Elizabeth I"
+    },
+
+
+		//Modern
+
+	{
+        "name": "Battersea Power Station",
+        "isWonder": true,
+		"production": 4,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Electricity",
+        "uniques": ["Comment [When training a Water Unit, receive an additional Water Unit of the same type.]",
+			"All newly-trained [{Military} {Water}] units [in your cities] receive the [Battersea] promotion <hidden from users>",
+			"Must be next to [Coast]"],
+		"quote": "'You asked me once if I remembered Battersea. And now I do.' - Susanna Clarke"
+    },
+
+	{
+        "name": "Boudhanath",
+        "isWonder": true,
+		"culture": 1,
+		"happiness": 1,
+		"faith": 5,
+        "requiredTech": "Pharmaceuticals",
+        "uniques": ["Resting point for Influence with City-States is increased by [20]"],
+		"quote": "'Those who teach this ocean of wisdom realize the momentary nature of things.' - The Bhadrakalpika Sūtra"
+    },
+
+	{
+        "name": "Brandenburg Gate",
+        "isWonder": true,
+		"production": 6,
+        "requiredTech": "Military Science",
+        "uniques": ["[-15]% unhappiness from the number of cities"],
+		"quote": "'Not through speeches will the great questions of the day be decided, but by iron and blood.' - Otto von Bismarck"
+    },
+
+	{
+        "name": "Chengde Mountain Resort",
+        "isWonder": true,
+		"gold": 6,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Dynamite",
+        "uniques": ["[+5]% [Culture] <for every [Remaining [Open Borders] Civilizations]>", "Must have an owned [Mountain] within [2] tiles"],
+		"quote": "'Endless wonder at slow waters quiet in frozen beauty and bamboo shimmering with frost.' - Xie Lingyun"
+    },
+
+	{
+        "name": "Dogo Onsen",
+        "isWonder": true,
+		"happiness": 4,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Steam Power",
+        "uniques": ["[+1] population [in this city] <upon entering a Golden Age>","[+1] population in a random city <upon entering a Golden Age>", "Must have an owned [Coast] within [2] tiles"],
+		"quote": "'It is cold, but we have sake and the hot spring.' - Masaoka Shiki"
+    },
+
+	{
+        "name": "Doi Suthep",
+        "isWonder": true,
+		"faith": 4,
+		"culture": 1,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Replaceable Parts",
+        "uniques": ["[+5 Culture, +5 Gold] [in this city] <for every [Remaining [{Friendly} {City-State}] Civilizations]>", "Must be on [Hill]"],
+		"quote": "'Just as the rain breaks through an ill-thatched house, so passion penetrates an undeveloped mind.' - The Tripiṭaka"
+    },
+
+	{
+        "name": "Eiffel Tower",
+        "isWonder": true,
+		"culture": 5,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Radio",
+        "uniques": ["[+1 Culture] from all [Happiness] buildings"],
+		"quote": "'The Tower can live on itself: one can dream there, eat there, observe there, understand there; one can feel oneself cut off from the world and yet the owner of a world.' - Roland Barthes"
+    },
+
+	{
+        "name": "Eram Garden",
+        "isWonder": true,
+		"food": 4,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Refrigeration",
+        "uniques": ["[-50]% Food consumption by specialists [in all cities]", "[+2 Food] from every specialist [in this city]", "Must be next to [Desert]"],
+		"quote": "'The garden was clad in robes of spring, and the air was filled with sweet sounds of music and song.' - Firdawsī"
+    },
+
+	{
+        "name": "Winter Palace",
+        "isWonder": true,
+		"culture": 4,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Rifling",
+        "uniques": ["[-100]% maintenance cost for [Culture] buildings [in all cities]", "Must be next to [Tundra]"],
+		"quote": "'Every passion borders on the chaotic, but the collector's passion borders on the chaos of memories.' - Walter Benjamin"
+    },
+
+	{
+        "name": "Muzibu Azaala Mpanga",
+        "isWonder": true,
+		"food": 4,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Archeaology",
+        "uniques": ["[+4 Culture, +2 Food] from [Lakes] tiles [in all cities]", "[+1 Food] from [Fresh Water] tiles [in this city]", "Must be next to [Lakes]"],
+		"quote": "'Princes are like pythons. They swallow each other.' - Mwanga II"
+    },
+
+	{
+        "name": "Berkenose College",
+        "isWonder": true,
+		"science": 4,
+		"greatPersonPoints": { "Great Scientist": 1},
+        "requiredTech": "Scientific Theory",
+        "uniques": ["[2] free random researchable Tech(s) from the [Industrial era]"],
+		"quote": "'I wonder anybody does anything at Oxford but dream and remember.' - William Butler Yeats"
+    },
+
+	{
+        "name": "Palacio de Bellas Artes",
+        "isWonder": true,
+		"culture": 5,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Plastics",
+        "uniques": ["[+2 Happiness] from all [Happiness] buildings <in this city>"],
+		"quote": "'Feet, what do I need them for if I have wings to fly?' - Frida Kahlo"
+    },
+
+	{
+        "name": "Red Fort",
+        "isWonder": true,
+		"gold": 4,
+		"production": 4,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Dynamite",
+        "uniques": ["[+50]% City Strength from defensive buildings", "[Military] Units adjacent to this city heal [15] HP per turn when healing"],
+		"quote": "'The world is the place we prove real by dying in it.' - Salman Rushdie"
+    },
+
+	{
+        "name": "Statue of Liberty",
+        "isWonder": true,
+		"happiness": 6,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Combustion",
+        "uniques": ["[+4] population [in this city]", "Must be next to [Coast]"],
+		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free. I lift my lamp beside the golden door.' - Emma Lazarus"
+    },
+
+	{
+        "name": "Sultanahmet Camii",
+        "isWonder": true,
+		"happiness": 4,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Industrialization",
+        "uniques": ["[+3 Culture, +3 Gold] from every [Wonder]", "Can only be built <in cities with a [Wonder]>"],
+		"quote": "'I hear and answer the prayer of the suppliant when he calls to Me. So let them respond to My call and believe in Me.' - The Quran"
+    },
+
+	{
+        "name": "Taj Mahal",
+        "isWonder": true,
+		"gold": 5,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Architecture",
+        "uniques": ["[+50]% Golden Age length", "Must be next to [Plains]"],
+		"quote": "'We are never so defenseless against suffering as when we love, never so helplessly unhappy as when we have lost our loved object or its love.' - Sigmund Freud"
+    },
+
+	{
+        "name": "Ubudiah Mosque",
+        "isWonder": true,
+		"happiness": 4,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Ballistics",
+        "uniques": ["[+50]% Yield from every [Improvement] <in this city>"],
+		"quote": "'Remember and remember, merchant child – your desires are the enemies of war.' - Hamzah Fansuri"
     },
 
 	
