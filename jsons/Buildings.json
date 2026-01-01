@@ -274,7 +274,7 @@
 		"happiness": 3,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Printing Press",
-        "uniques": ["[+1 Food] from all [Happiness] buildings <in all cities>", "Must be next to [Coast]"], 
+        "uniques": ["[+1 Food] from all [Happiness] buildings <in [All] cities>", "Must be next to [Coast]"], 
         "quote": "'The true nature of emptiness is the nature of no birth and no death. No being, no non-being.' - The Heart Sūtra"
     },
 
@@ -574,7 +574,7 @@
         "isWonder": true,
 		"food": 4,
 		"greatPersonPoints": { "Great Engineer": 1},
-        "requiredTech": "Archeaology",
+        "requiredTech": "Archaeology",
         "uniques": ["[+4 Culture, +2 Food] from [Lakes] tiles [in all cities]", "[+1 Food] from [Fresh Water] tiles [in this city]", "Must be next to [Lakes]"],
 		"quote": "'Princes are like pythons. They swallow each other.' - Mwanga II"
     },
