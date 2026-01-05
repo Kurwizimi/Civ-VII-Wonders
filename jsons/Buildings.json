@@ -115,7 +115,7 @@
 		"culture": 5,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Sailing",
-        "uniques": ["[+1 Food, +1 Culture] from [Fishing boats] tiles [in this city]", "Must be next to [Coast]"], 
+        "uniques": ["[+1 Food, +1 Culture] from [Fishing Boats] tiles [in this city]", "Must be next to [Coast]"], 
         "quote": "'I am the River, the River is me.' - Whanganui saying"
     },
 
@@ -170,7 +170,7 @@
 		"culture": 1,
 		"greatPersonPoints": { "Great Scientist": 1},
         "requiredTech": "Currency",
-        "uniques": ["[+1 Science] from [{improved} {Vegetated}] tiles [in this city]", "[+2 Happiness] [in all cities] <within [2] tiles of a [Jungle]>", "Must have an owned [Jungle] within [2] tiles"], 
+        "uniques": ["[+1 Science] from [{improved} {Forest}] tiles [in this city]", "[+1 Science] from [{improved} {Jungle}] tiles [in this city]", "[+2 Happiness] [in all cities] <within [2] tiles of a [Jungle]>", "Must have an owned [Jungle] within [2] tiles"], 
         "quote": "'My light is great. I am the path and the foothold of the people, because my eyes are of metal, while my teeth glitter with jewels.' - Popol Vuh"
     },
 
