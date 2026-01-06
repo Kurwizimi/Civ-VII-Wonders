@@ -160,7 +160,7 @@
 		"food": 3,
 		"greatPersonPoints": { "Great Scientist": 1},
         "requiredTech": "Currency",
-        "uniques": ["[+50]% [Strategic resource] resource production <in this city>", "Creates a [Great Mound] improvement on a specific tile", "Must be next to [River]"], 
+        "uniques": ["Creates a [Great Mound] improvement on a specific tile", "Must be next to [River]"], 
         "quote": "'And here he lay, older than the hill he rested on.' - Zitkala-Sa"
     },
 	
