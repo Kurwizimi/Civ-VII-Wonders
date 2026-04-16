@@ -1,12 +1,12 @@
 [
   {
 		"name": "Select",
-		"text": "Hello!\n\nSorry for interrupting your game, but you need to make a decision from Civ VII Wonders to work\nUnCiv and Civ VII both share some wonders, with most of them having very different, and unbalanced, abilities.\nHere, you can select which wonders you wish to have in your game.",
+		"text": "Hello!\n\nSorry for interrupting your game, but you need to make a decision from Civ VII Wonders to work\nUnCiv and Civ VII both share some wonders, with most of them having very different, and unbalanced, abilities.\nThere is also fewer wonders that are available later in the game in Civ VII compared to UnCiv\nHere, you can select which wonders you wish to have in your game.",
 		"presentation": "Alert",
 		"choices": [
 			{
 				"text": "Only Wonders unique to Civ VII (Recommended)",
-				"uniques": ["Comment [All wonders from UnCiv and wonders unique to CIv VII will be available]", "Instantly provides [1] [UnCiv] <hidden from users>"]
+				"uniques": ["Comment [All wonders from UnCiv and wonders unique to Civ VII will be available]", "Instantly provides [1] [UnCiv] <hidden from users>"]
 			},
       {
 				"text": "All Wonders from Civ VII",
