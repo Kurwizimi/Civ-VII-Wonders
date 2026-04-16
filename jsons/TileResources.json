@@ -1,0 +1,22 @@
+[
+  {
+		"name": "UnCiv",
+		"resourceType": "Bonus",
+		"uniques": ["Cannot be traded",
+		            "Stockpiled",
+			          "Excluded from map editor",
+	          		"Not shown on world screen",
+	          		"Doesn't generate naturally",
+		          	"Will not be displayed in Civilopedia"]
+	},
+   {
+		"name": "Civ VII",
+		"resourceType": "Bonus",
+		"uniques": ["Cannot be traded",
+		            "Stockpiled",
+			          "Excluded from map editor",
+	          		"Not shown on world screen",
+	          		"Doesn't generate naturally",
+		          	"Will not be displayed in Civilopedia"]
+	},
+]
