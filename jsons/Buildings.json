@@ -6,10 +6,21 @@
         "name": "Angkôrvôtt",
         "isWonder": true,
 		"happiness" : 3,
-		"greatPersonPoints": {  "Great Artist": 1, "Great Scientist": 1, "Great Engineer": 1, "Great Merchant": 1, "Great General": 1, "Great Admiral": 1},
-		"specialistSlots": {"Artist": 1, "Scientist": 1, "Engineer": 1, "Merchant": 1},
+		"greatPersonPoints": {  "Great Artist": 1,
+								"Great Scientist": 1,
+								"Great Engineer": 1,
+								"Great Merchant": 1,
+								"Great General": 1,
+								"Great Admiral": 1},
+		"specialistSlots": {"Artist": 1,
+							"Scientist": 1,
+							"Engineer": 1,
+							"Merchant": 1},
         "requiredTech": "Philosophy",
-        "uniques": ["Comment [Provides 1 of all Specialist slots]","Comment [Provides 1 of all Great People Points]", "Must be next to [River]"],
+        "uniques": ["Comment [Provides 1 of all Specialist slots]",
+					"Comment [Provides 1 of all Great People Points]",
+					"Must be next to [River]",
+					"Only available <when number of [Civ VII] is equal to [1]>"],
         "quote": "'All beings who are plunged into the ocean of existence, may I draw them out by virtue of this good work.' - Jayavarman VII, To Prohm"
     },
 	{
@@ -18,7 +29,10 @@
 		"gold" : 2,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Engineering",
-        "uniques": ["Gain a free [Walls] [in all coastal cities]", "Connects trade routes over water", "[+50]% Gold from Great Merchant trade missions", "Must be next to [Coast]"],
+        "uniques": ["Gain a free [Walls] [in all coastal cities]",
+					"Connects trade routes over water",
+					"[+50]% Gold from Great Merchant trade missions",
+					"Must be next to [Coast]"],
         "quote": "'There are to be seen at this day certain ruins of the city walls.' - Leo Africanus"
     },
 	{
@@ -27,7 +41,9 @@
 		"culture" : 3,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Drama and Poetry",
-        "uniques": ["[+1 Happiness] <for every [ [[Happiness] Buildings] / 2 ]> <hidden from users>", "Comment [+1 [Happiness] for every 2 [Happiness] Buildings]"], 
+        "uniques": ["[+1 Happiness] <for every [ [[Happiness] Buildings] / 2 ]> <hidden from users>",
+					"Comment [+1 [Happiness] for every 2 [Happiness] Buildings]",
+					"Only available <when number of [Civ VII] is equal to [1]>"], 
 		//+2 Happiness on all happines buildings in this city? +1 Happiness on all happines and culture in this city?
         "quote": "'While stands the Colosseum, Rome shall stand. When falls the Colosseum, Rome shall fall, and when Rome falls, with it shall fall the world' - The Venerable Bede"
     },
@@ -38,7 +54,9 @@
 		"gold" : 3,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Optics",
-        "uniques": ["[+1 Gold] from [resource] tiles [in this city]", "Must be next to [Coast]"], 
+        "uniques": ["[+1 Gold] from [resource] tiles [in this city]",
+					"Must be next to [Coast]",
+					"Only available <when number of [Civ VII] is equal to [1]>"], 
         "quote": "'He doth bestride the narrow world, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare"
     },
 
@@ -49,7 +67,9 @@
 		"cityHealth": 50,
 		"greatPersonPoints": { "Great General": 1},
         "requiredTech": "Bronze Working",
-        "uniques": ["[+2 Science] from [Fort] tiles [in all cities]", "[+4 Science] from [Citadel] tiles [in all cities]", "[Military] Units adjacent to this city heal [5] HP per turn when healing"], 
+        "uniques": ["[+2 Science] from [Fort] tiles [in all cities]", 
+					"[+4 Science] from [Citadel] tiles [in all cities]",
+					"[Military] Units adjacent to this city heal [5] HP per turn when healing"], 
         "quote": "'From this day forward, your pronouncement shall be unchangeable, to raise or bring low - these shall be in your hand.' - Enūma Eliš"
     },
 
@@ -81,7 +101,9 @@
 		"science": 4,
 		"greatPersonPoints": { "Great Scientist": 1},
         "requiredTech": "Mathematics",
-        "uniques": ["[+1 Science] from all [Science] buildings", "[+1 Science] per [3] population [in this city]"], 
+        "uniques": ["[+1 Science] from all [Science] buildings",
+					"[+1 Science] per [3] population [in this city]",
+					"Only available <when number of [Civ VII] is equal to [1]>"], 
         "quote": "'The place for the cure of the soul.' - Inscription over the door at the library"
     },
 
@@ -91,7 +113,10 @@
 		"gold": 2,
 		"greatPersonPoints": { "Great Merchant": 2},
         "requiredTech": "Optics",
-        "uniques": ["[+1] Sight <for [Water] units>", "Land units may cross [Ocean] tiles after the first [Great Merchant] is earned", "Must be next to [Coast]"], 
+        "uniques": ["[+1] Sight <for [Water] units>",
+					"Land units may cross [Ocean] tiles after the first [Great Merchant] is earned",
+					"Must be next to [Coast]",
+					"Only available <when number of [Civ VII] is equal to [1]>"], 
         "quote": "'He built the tower at Pharos, the greatest and most beautiful work of all, so that a light might shine for sailors far across the sea.' - Lucian of Samosata"
     },
 
@@ -115,7 +140,8 @@
 		"culture": 5,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Sailing",
-        "uniques": ["[+1 Food, +1 Culture] from [Fishing Boats] tiles [in this city]", "Must be next to [Coast]"], 
+        "uniques": ["[+1 Food, +1 Culture] from [Fishing Boats] tiles [in this city]",
+					"Must be next to [Coast]"], 
         "quote": "'I am the River, the River is me.' - Whanganui saying"
     },
 
@@ -126,7 +152,10 @@
 		"food": 2,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "The Wheel",
-        "uniques": ["[+1 Food] from [Farm] tiles [in this city]", "[+10]% growth [in all cities]", "Must be next to [River]"], 
+        "uniques": ["[+1 Food] from [Farm] tiles [in this city]",
+					"[+10]% growth [in all cities]",
+					"Must be next to [River]",
+					"Only available <when number of [Civ VII] is equal to [1]>"], 
         "quote": "'The canal-water gushes from above into the gardens; fragrance pervades the walkways, streams of water as numerous as the stars of heaven flow in the pleasure garden.' - Ashurbanipal"
     },
 
@@ -140,7 +169,9 @@
 					"All newly-trained [Knight] units [in all cities] receive the [Artemisia III] promotion", "All newly-trained [Lancer] units [in all cities] receive the [Artemisia IV] promotion",
 					"All newly-trained [Cavalry] units [in all cities] receive the [Artemisia V] promotion", "All newly-trained [Landship] units [in all cities] receive the [Artemisia VI] promotion",	
 					"All newly-trained [Tank] units [in all cities] receive the [Artemisia VII] promotion", "All newly-trained [Modern Armor] units [in all cities] receive the [Artemisia VIII] promotion",
-					"Comment [The first time a Mounted or Armoured unit is destroyed, it will respawn at your capital.]", "Must be next to [Coast]"], 
+					"Comment [The first time a Mounted or Armoured unit is destroyed, it will respawn at your capital.]",
+					"Must be next to [Coast]",
+					"Only available <when number of [Civ VII] is equal to [1]>"], 
         "quote": "'A vast tomb lies over me in Halicarnassus, of such dimensions, of such exquisite beauty as no other shade can boast.' - Lucian of Samosata"
     },
 
@@ -150,7 +181,9 @@
 		"production": 3,
 		"greatPersonPoints": { "Great General": 1},
         "requiredTech": "Horseback Riding",
-        "uniques": ["[+100]% Yield from pillaging tiles", "[+50]% Health from pillaging tiles", "Must be next to [Coast]"], 
+        "uniques": ["[+100]% Yield from pillaging tiles",
+					"[+50]% Health from pillaging tiles",
+					"Must be next to [Coast]"], 
         "quote": "'Better it is for every man to avenge his friend than mourn him.' - Beowulf"
     },
 
@@ -160,7 +193,8 @@
 		"food": 3,
 		"greatPersonPoints": { "Great Scientist": 1},
         "requiredTech": "Currency",
-        "uniques": ["Creates a [Great Mound] improvement on a specific tile", "Must be next to [River]"], 
+        "uniques": ["Creates a [Great Mound] improvement on a specific tile",
+					"Must be next to [River]"], 
         "quote": "'And here he lay, older than the hill he rested on.' - Zitkala-Sa"
     },
 	
@@ -170,7 +204,10 @@
 		"culture": 1,
 		"greatPersonPoints": { "Great Scientist": 1},
         "requiredTech": "Currency",
-        "uniques": ["[+1 Science] from [{improved} {Forest}] tiles [in this city]", "[+1 Science] from [{improved} {Jungle}] tiles [in this city]", "[+2 Happiness] [in all cities] <within [2] tiles of a [Jungle]>", "Must have an owned [Jungle] within [2] tiles"], 
+        "uniques": ["[+1 Science] from [{improved} {Forest}] tiles [in this city]",
+					"[+1 Science] from [{improved} {Jungle}] tiles [in this city]",
+					"[+2 Happiness] [in all cities] <within [2] tiles of a [Jungle]>",
+					"Must have an owned [Jungle] within [2] tiles"], 
         "quote": "'My light is great. I am the path and the foothold of the people, because my eyes are of metal, while my teeth glitter with jewels.' - Popol Vuh"
     },
 
@@ -181,7 +218,9 @@
 		"faith": 2,
 		"greatPersonPoints": { "Great Scientist": 1},
         "requiredTech": "Drama and Poetry",
-        "uniques": ["Gain a free [Temple] [in this city]", "Free [Great Scientist] appears", "Must be next to [Plains]"], 
+        "uniques": ["Gain a free [Temple] [in this city]",
+					"Free [Great Scientist] appears",
+					"Must be next to [Plains]"], 
         "quote": "'If you desire ease, forsake learning. If you desire learning, forsake ease.' - Nagarjuna"
     },
 
@@ -191,16 +230,18 @@
 		"culture": 2,
 		"greatPersonPoints": { "Great Scientist": 1},
         "requiredTech": "Construction",
-        "uniques": ["Empire enters golden age", "Comment [Gain [20] [Culture] upon ending a Golden Age, incresing by 10 [Culture] every era]", "Must be on [Hill]", 
-			"Gain [20] [Culture] <upon ending a Golden Age> <during the [Ancient era]> <hidden from users>",
-			"Gain [30] [Culture] <upon ending a Golden Age> <during the [Classical era]> <hidden from users>",
-			"Gain [40] [Culture] <upon ending a Golden Age> <during the [Medieval era]> <hidden from users>",
-			"Gain [50] [Culture] <upon ending a Golden Age> <during the [Renaissance era]> <hidden from users>",
-			"Gain [60] [Culture] <upon ending a Golden Age> <during the [Industrial era]> <hidden from users>",
-			"Gain [70] [Culture] <upon ending a Golden Age> <during the [Modern era]> <hidden from users>",
-			"Gain [80] [Culture] <upon ending a Golden Age> <during the [Atomic era]> <hidden from users>",
-			"Gain [90] [Culture] <upon ending a Golden Age> <during the [Information era]> <hidden from users>",
-			"Gain [100] [Culture] <upon ending a Golden Age> <during the [Future era]> <hidden from users>"], 
+        "uniques": ["Empire enters golden age",
+					"Comment [Gain [20] [Culture] upon ending a Golden Age, incresing by 10 [Culture] every era]", "Must be on [Hill]", 
+					"Gain [20] [Culture] <upon ending a Golden Age> <during the [Ancient era]> <hidden from users>",
+					"Gain [30] [Culture] <upon ending a Golden Age> <during the [Classical era]> <hidden from users>",
+					"Gain [40] [Culture] <upon ending a Golden Age> <during the [Medieval era]> <hidden from users>",
+					"Gain [50] [Culture] <upon ending a Golden Age> <during the [Renaissance era]> <hidden from users>",
+					"Gain [60] [Culture] <upon ending a Golden Age> <during the [Industrial era]> <hidden from users>",
+					"Gain [70] [Culture] <upon ending a Golden Age> <during the [Modern era]> <hidden from users>",
+					"Gain [80] [Culture] <upon ending a Golden Age> <during the [Atomic era]> <hidden from users>",
+					"Gain [90] [Culture] <upon ending a Golden Age> <during the [Information era]> <hidden from users>",
+					"Gain [100] [Culture] <upon ending a Golden Age> <during the [Future era]> <hidden from users>",
+					"Only available <when number of [Civ VII] is equal to [1]>"], 
         "quote": "'Remain less interested in who we imagine ourselves to be than in what we can do for one another.' - Paul Gilroy"
     },
 
@@ -210,8 +251,11 @@
 		"gold": 2,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Writing",
-        "uniques": ["[+1 Production] from [{Rough terrain} {Desert}] tiles [in all cities]", "[+1 Gold] from [{Open terrain} {Desert}] tiles [in all cities]",
-					"[+1 Production, +1 Gold] from [Desert] tiles [in this city]", "Must be next to [Desert]"], 
+        "uniques": ["[+1 Production] from [{Rough terrain} {Desert}] tiles [in all cities]",
+					"[+1 Gold] from [{Open terrain} {Desert}] tiles [in all cities]",
+					"[+1 Production, +1 Gold] from [Desert] tiles [in this city]",
+					"Must be next to [Desert]",
+					"Only available <when number of [Civ VII] is equal to [1]>"], 
         "quote": "'Sedentary life is civilization's goal. It marks the end of its life and heralds its corruption.' - Ibn Khaldun"
     },
 
@@ -221,17 +265,21 @@
 		"culture": 3,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Mathematics",
-        "uniques": ["[+2 Culture] from all [Culture] buildings <in this city>", "Must not be on [Hill]"], 
+        "uniques": ["[+2 Culture] from all [Culture] buildings <in this city>",
+					"Must not be on [Hill]"], 
         "quote": "'The warriors' blood flowed like water and gathered in pools.' - Mexica Account of Toxcatl"
     },
 
 	{
-        "name": "Pyramids",
+        "name": "The Great Pyramids",
         "isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Masonry",
-        "uniques": ["[+1 Production, +2 Gold] from [River] tiles [in this city]", "Must be next to [River]", "Must not be on [Tundra]"], 
+        "uniques": ["[+1 Production, +2 Gold] from [River] tiles [in this city]",
+					"Must be next to [River]",
+					"Must not be on [Tundra]",
+					"Only available <when number of [Civ VII] is equal to [1]>"], 
         "quote": "'Soldiers, from the summit of these pyramids, forty centuries of history look down upon you!' - Napoleon Bonaparte"
     },
 
@@ -241,7 +289,9 @@
 		"happiness": 2,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Philosophy",
-        "uniques": ["Comment [+1 [Culture] for every 5 [Happiness]]", "[+1 Culture] <for every [[[Happiness] Per Turn]/5]> <hidden from users>", "Must be next to [Plains]"], 
+        "uniques": ["Comment [+1 [Culture] for every 5 [Happiness]]",
+					"[+1 Culture] <for every [[[Happiness] Per Turn]/5]> <hidden from users>",
+					"Must be next to [Plains]"], 
         "quote": "'All religions should reside everywhere, for all of them desire self-control and purity of heart!' - Ashoka"
     },
 
@@ -250,7 +300,10 @@
         "isWonder": true,
 		"production": 2,
         "requiredTech": "Iron Working",
-        "uniques": ["Free [Great General] appears", "[+50]% XP gained from combat", "Must be next to [Grassland]"], 
+        "uniques": ["Free [Great General] appears",
+					"[+50]% XP gained from combat",
+					"Must be next to [Grassland]",
+					"Only available <when number of [Civ VII] is equal to [1]>"], 
         "quote": "'After the battle many new ghosts cry.' - Du Fu"
     },
 
@@ -260,8 +313,10 @@
 		"culture": 1,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Drama and Poetry",
-        "uniques": ["Gifts of Gold to City-States generate [+20]% more Influence", "Comment [Gain 5 Influence with a Land unit gift to a City-State]",
-					"Gain [5] Influence with a [Land] gift to a City-State <hidden from users>", "Must be next to [Grassland]"], 
+        "uniques": ["Gifts of Gold to City-States generate [+20]% more Influence",
+					"Comment [Gain 5 Influence with a Land unit gift to a City-State]",
+					"Gain [5] Influence with a [Land] gift to a City-State <hidden from users>",
+					"Must be next to [Grassland]"], 
         "quote": "'Heaven is lasting. Earth endures. Time has no limit. Regret goes on and on without end.' - Bai Juyi"
     },
 
@@ -274,7 +329,8 @@
 		"happiness": 3,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Printing Press",
-        "uniques": ["[+1 Food] from all [Happiness] buildings <in [All] cities>", "Must be next to [Coast]"], 
+        "uniques": ["[+1 Food] from all [Happiness] buildings <in [All] cities>",
+					"Must be next to [Coast]"], 
         "quote": "'The true nature of emptiness is the nature of no birth and no death. No being, no non-being.' - The Heart Sūtra"
     },
 
@@ -285,7 +341,8 @@
 		"faith": 3,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Guilds",
-        "uniques": ["[+2 Happiness] in cities on [River] tiles", "Must be next to [River]"], 
+        "uniques": ["[+2 Happiness] in cities on [River] tiles",
+					"Must be next to [River]"], 
         "quote": "' mortal ripens like corn, like corn he springs up again.' - The Katha Upanishad"
     },
 
@@ -295,7 +352,8 @@
 		"happiness": 3,
 		"greatPersonPoints": { "Great Admiral": 1},
         "requiredTech": "Astronomy",
-        "uniques": ["[+1 Happiness, +2 Culture] in cities on [Coastal] tiles", "Must be on [Hill]"], 
+        "uniques": ["[+1 Happiness, +2 Culture] in cities on [Coastal] tiles",
+					"Must be on [Hill]"], 
         "quote": "'Law is nothing other than the command of the sovereign in the exercise of his power.' - Jean Bodin"
     },
 
@@ -305,7 +363,8 @@
 		"culture": 2,
 		"greatPersonPoints": { "Great General": 2},
         "requiredTech": "Chivalry",
-        "uniques": ["Earn [50]% of killed [Mounted] unit's [Cost] as [Culture]", "Gain [20] [Culture] <upon gaining a [Mounted] unit>"], 
+        "uniques": ["Earn [50]% of killed [Mounted] unit's [Cost] as [Culture]",
+					"Gain [20] [Culture] <upon gaining a [Mounted] unit>"], 
         "quote": "'O ye conquerors and your sons, O ye gurus and devas: Out of your great love, lead us along the Path.' - The Tibetan Book of the Dead"
     },
 
@@ -315,7 +374,11 @@
 		"culture": 4,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Printing Press",
-        "uniques": ["[+1 Culture, +1 Gold] from every [Walls]","[+1 Culture, +1 Gold] from every [Castle]","[+1 Culture, +1 Gold] from every [Arsenal]", "[+1 Culture, +1 Gold] from every [Military Base]"],
+        "uniques": ["[+1 Culture, +1 Gold] from every [Walls]",
+					"[+1 Culture, +1 Gold] from every [Castle]",
+					"[+1 Culture, +1 Gold] from every [Arsenal]",
+					"[+1 Culture, +1 Gold] from every [Military Base]",
+					"Only available <when number of [Civ VII] is equal to [1]>"],
 		"quote": "'The past is the treasure, time is its hiding place.' - Gail Mazur"
     },
 
@@ -325,7 +388,8 @@
 		"gold": 2,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Economics",
-        "uniques": ["[+3 Gold] from [Luxury resource] tiles [in this city]","[+1 Gold] from each Trade Route"],
+        "uniques": ["[+3 Gold] from [Luxury resource] tiles [in this city]",
+					"[+1 Gold] from each Trade Route"],
 		"quote": "'We take the golden road to Samarkand.' - James Elroy Flecker"
     },
 
@@ -335,7 +399,10 @@
 		"culture": 2,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Compass",
-        "uniques": ["[+2 Culture] from every [Lighthouse]","[+2 Culture] from every [Harbor]","[+2 Culture] from every [Seaport]","Must be next to [Coast]"],
+        "uniques": ["[+2 Culture] from every [Lighthouse]",
+					"[+2 Culture] from every [Harbor]",
+					"[+2 Culture] from every [Seaport]",
+					"Must be next to [Coast]"],
 		"quote": "'The life of the land is perpetuated in righteousness.' - Kamehameha I"
     },
 
@@ -345,7 +412,8 @@
 		"gold": 2,
 		"greatPersonPoints": { "Great Admiral": 1},
         "requiredTech": "Navigation",
-        "uniques": ["[+30]% [Gold] [in all cities] <on foreign continents>","Must be next to [Coast]"],
+        "uniques": ["[+30]% [Gold] [in all cities] <on foreign continents>",
+					"Must be next to [Coast]"],
 		"quote": "'In the immediate nearness of the gold, all else had been forgotten.' - Robert Louis Stevenson"
     },
 
@@ -365,7 +433,9 @@
 		"gold": 4,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Architecture",
-        "uniques": ["[+1 Gold, +1 Culture] from [Land] tiles [in this city] <for every adjacent [Mountain]>", "Must have an owned [Mountain] within [2] tiles"],
+        "uniques": ["[+1 Gold, +1 Culture] from [Land] tiles [in this city] <for every adjacent [Mountain]>",
+					"Must have an owned [Mountain] within [2] tiles",
+					"Only available <when number of [Civ VII] is equal to [1]>"],
 		"quote": "'Thou who dwell in the high heavens, among the tempest's clouds - accept our sacrifice.' - Inca prayer to Viracocha"
     },
 
@@ -375,7 +445,7 @@
 		"cultire": 1,
 		"greatPersonPoints": { "Great Admiral": 1},
         "requiredTech": "Civil Service",
-        "uniques": ["[+3 Production, +3 Culture] [in all coastal cities]"],
+        "uniques": ["[+3 Production, +3 Culture] [in all coastal cities]", "Must be next to [Coast]"],
 		"quote": "'Mother of my house, don't you stir. You shall wait for the setting of sunset glow, when gone to sleep is the surface of the sea.' - Chuuk Chant"
     },
 
@@ -385,7 +455,9 @@
 		"happiness": 4,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Physics",
-        "uniques": ["[+2 Culture] from every specialist [in all cities] <during a Golden Age>", "Empire enters golden age"],
+        "uniques": ["[+2 Culture] from every specialist [in all cities] <during a Golden Age>",
+					"Empire enters golden age",
+					"Only available <when number of [Civ VII] is equal to [1]>"],
 		"quote": "'The echoes of our glory and our losses, of our victories and our disasters, have always resounded under those vaults.' - André Chamson"
     },
 
@@ -395,7 +467,8 @@
 		"culture": 3,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Acoustics",
-        "uniques": ["[+3]% Production when constructing [All] units [in this city] <for every [Adopted [All] Policies]>", "Must be next to [Tundra]"],
+        "uniques": ["[+3]% Production when constructing [All] units [in this city] <for every [Adopted [All] Policies]>",
+					"Must be next to [Tundra]"],
 		"quote": "'Sturla was often at Reykjaholt, and gave much thought to having copies made of those saga books which Snorri was writing.' - Íslendinga saga"
     },
 
@@ -415,7 +488,8 @@
 		"culture": 1,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Astronomy",
-        "uniques": ["[+2 Science, +2 Production] from [Great Improvement] tiles [in this city]", "Must be next to [Grassland]"],
+        "uniques": ["[+2 Science, +2 Production] from [Great Improvement] tiles [in this city]",
+					"Must be next to [Grassland]"],
 		"quote": "'Our Creator sang to us in the wind and the running water, in the bird songs, in children's laughter, and taught us music.' - Tenskwatawa"
     },
 
@@ -425,7 +499,8 @@
 		"science": 4,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Education",
-        "uniques": ["[+2 Science] from [{improved} {Land}] tiles [in this city] <in tiles adjacent to [Fresh Water] tiles>", "Must be next to [Lakes]"],
+        "uniques": ["[+2 Science] from [{improved} {Land}] tiles [in this city] <in tiles adjacent to [Fresh Water] tiles>",
+					"Must be next to [Lakes]"],
 		"quote": "'I teach only suffering and the end of suffering.' - The Buddha"
     },
 
@@ -435,7 +510,8 @@
 		"culture": 4,
 		"specialistSlots": {"Administrator": 1,},
         "requiredTech": "Gunpowder",
-        "uniques": ["Gain a free [Castle] [in this city]"], //Comment on unique specialist
+        "uniques": ["Gain a free [Castle] [in this city]",
+					"Comment [Gain +1 Administrator Specialist]"], //Comment on unique specialist
 		"quote": "'If heroes remained home to die by the fire, would their names be inscribed upon bamboo and silk for all eternity?' - Trần Hưng Đạo"
     },
 
@@ -446,9 +522,9 @@
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Theology",
         "uniques": ["Comment [Gain 200 [Gold] upon expending a Great Person unit, doubled for [Great Prophet]s (modified by game speed)]",
-			"Gain [200] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)> <hidden from users>",
-			"Gain [200] [Gold] <upon expending a [Great Prophet] unit> <(modified by game speed)> <hidden from users>",
-			"Must be next to [River]"],
+					"Gain [200] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)> <hidden from users>",
+					"Gain [200] [Gold] <upon expending a [Great Prophet] unit> <(modified by game speed)> <hidden from users>",
+					"Must be next to [River]"],
 		"quote": "'Let the rain fall according to season, and let the frogs cry out in the fields.' - The Legend of the Toad King"
     },
 
@@ -459,8 +535,8 @@
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Banking",
         "uniques": ["[Comment [+2 [Gold], +1 [Production] from Luxury resource tiles in this city, doubled if in [Desert]]",
-			"[+2 Gold, +1 Production] from [Luxury resource] tiles [in this city] <hidden from users>",
-			"[+2 Gold, +1 Production] from [{Desert} {Luxury resource}] tiles [in this city] <hidden from users>"],
+					"[+2 Gold, +1 Production] from [Luxury resource] tiles [in this city] <hidden from users>",
+					"[+2 Gold, +1 Production] from [{Desert} {Luxury resource}] tiles [in this city] <hidden from users>"],
 		"quote": "'Wherever you may be, death will overtake you. Even if you should be in towers of lofty construction.' - The Quran"
     },
 
@@ -469,7 +545,7 @@
         "isWonder": true,
 		"happiness": 4,
         "requiredTech": "Physics",
-        "uniques": ["[+1 Culture, +1 Happiness] per [1] social policies adopted"],
+        "uniques": ["[+3 Culture, +1 Happiness] per [3] social policies adopted"],
 		"quote": "'To be a king and wear a crown is a thing more glorious to them that see it than it is pleasant to them that bear it.' - Elizabeth I"
     },
 
@@ -483,8 +559,8 @@
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Electricity",
         "uniques": ["Comment [When training a Water Unit, receive an additional Water Unit of the same type.]",
-			"All newly-trained [{Military} {Water}] units [in your cities] receive the [Battersea] promotion <hidden from users>",
-			"Must be next to [Coast]"],
+					"All newly-trained [{Military} {Water}] units [in your cities] receive the [Battersea] promotion <hidden from users>",
+					"Must be next to [Coast]"],
 		"quote": "'You asked me once if I remembered Battersea. And now I do.' - Susanna Clarke"
     },
 
@@ -504,7 +580,8 @@
         "isWonder": true,
 		"production": 6,
         "requiredTech": "Military Science",
-        "uniques": ["[-15]% unhappiness from the number of cities"],
+        "uniques": ["[-15]% unhappiness from the number of cities",
+					"Only available <when number of [Civ VII] is equal to [1]>"],
 		"quote": "'Not through speeches will the great questions of the day be decided, but by iron and blood.' - Otto von Bismarck"
     },
 
@@ -514,7 +591,8 @@
 		"gold": 6,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Dynamite",
-        "uniques": ["[+5]% [Culture] <for every [Remaining [Open Borders] Civilizations]>", "Must have an owned [Mountain] within [2] tiles"],
+        "uniques": ["[+5]% [Culture] <for every [Remaining [Open Borders] Civilizations]>",
+					"Must have an owned [Mountain] within [2] tiles"],
 		"quote": "'Endless wonder at slow waters quiet in frozen beauty and bamboo shimmering with frost.' - Xie Lingyun"
     },
 
@@ -524,7 +602,9 @@
 		"happiness": 4,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Steam Power",
-        "uniques": ["[+1] population [in this city] <upon entering a Golden Age>","[+1] population in a random city <upon entering a Golden Age>", "Must have an owned [Coast] within [2] tiles"],
+        "uniques": ["[+1] population [in this city] <upon entering a Golden Age>",
+					"[+1] population in a random city <upon entering a Golden Age>",
+					"Must have an owned [Coast] within [2] tiles"],
 		"quote": "'It is cold, but we have sake and the hot spring.' - Masaoka Shiki"
     },
 
@@ -535,7 +615,8 @@
 		"culture": 1,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Replaceable Parts",
-        "uniques": ["[+5 Culture, +5 Gold] [in this city] <for every [Remaining [{Friendly} {City-State}] Civilizations]>", "Must be on [Hill]"],
+        "uniques": ["[+5 Culture, +5 Gold] [in this city] <for every [Remaining [{Friendly} {City-State}] Civilizations]>",
+					"Must be on [Hill]"],
 		"quote": "'Just as the rain breaks through an ill-thatched house, so passion penetrates an undeveloped mind.' - The Tripiṭaka"
     },
 
@@ -545,7 +626,8 @@
 		"culture": 5,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Radio",
-        "uniques": ["[+1 Culture] from all [Happiness] buildings"],
+        "uniques": ["[+1 Culture] from all [Happiness] buildings",
+					"Only available <when number of [Civ VII] is equal to [1]>"],
 		"quote": "'The Tower can live on itself: one can dream there, eat there, observe there, understand there; one can feel oneself cut off from the world and yet the owner of a world.' - Roland Barthes"
     },
 
@@ -555,7 +637,9 @@
 		"food": 4,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Refrigeration",
-        "uniques": ["[-50]% Food consumption by specialists [in all cities]", "[+2 Food] from every specialist [in this city]", "Must be next to [Desert]"],
+        "uniques": ["[-50]% Food consumption by specialists [in all cities]",
+					"[+2 Food] from every specialist [in this city]",
+					"Must be next to [Desert]"],
 		"quote": "'The garden was clad in robes of spring, and the air was filled with sweet sounds of music and song.' - Firdawsī"
     },
 
@@ -565,7 +649,9 @@
 		"culture": 4,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Rifling",
-        "uniques": ["[-100]% maintenance cost for [Culture] buildings [in all cities]", "Must be next to [Tundra]"],
+        "uniques": ["[-100]% maintenance cost for [Culture] buildings [in all cities]",
+					"Must be next to [Tundra]",
+					"Only available <when number of [Civ VII] is equal to [1]>"],
 		"quote": "'Every passion borders on the chaotic, but the collector's passion borders on the chaos of memories.' - Walter Benjamin"
     },
 
@@ -575,7 +661,9 @@
 		"food": 4,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Archaeology",
-        "uniques": ["[+4 Culture, +2 Food] from [Lakes] tiles [in all cities]", "[+1 Food] from [Fresh Water] tiles [in this city]", "Must be next to [Lakes]"],
+        "uniques": ["[+4 Culture, +2 Food] from [Lakes] tiles [in all cities]",
+					"[+1 Food] from [Fresh Water] tiles [in this city]",
+					"Must be next to [Lakes]"],
 		"quote": "'Princes are like pythons. They swallow each other.' - Mwanga II"
     },
 
@@ -585,7 +673,8 @@
 		"science": 4,
 		"greatPersonPoints": { "Great Scientist": 1},
         "requiredTech": "Scientific Theory",
-        "uniques": ["[2] free random researchable Tech(s) from the [Industrial era]"],
+        "uniques": ["[2] free random researchable Tech(s) from the [Industrial era]",
+					"Only available <when number of [Civ VII] is equal to [1]>"],
 		"quote": "'I wonder anybody does anything at Oxford but dream and remember.' - William Butler Yeats"
     },
 
@@ -606,7 +695,8 @@
 		"production": 4,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Dynamite",
-        "uniques": ["[+50]% City Strength from defensive buildings", "[Military] Units adjacent to this city heal [15] HP per turn when healing"],
+        "uniques": ["[+50]% City Strength from defensive buildings",
+					"[Military] Units adjacent to this city heal [15] HP per turn when healing"],
 		"quote": "'The world is the place we prove real by dying in it.' - Salman Rushdie"
     },
 
@@ -616,7 +706,9 @@
 		"happiness": 6,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Combustion",
-        "uniques": ["[+4] population [in this city]", "Must be next to [Coast]"],
+        "uniques": ["[+6] population [in this city]",
+					"Must be next to [Coast]".
+					"Only available <when number of [Civ VII] is equal to [1]>"],
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free. I lift my lamp beside the golden door.' - Emma Lazarus"
     },
 
@@ -626,7 +718,8 @@
 		"happiness": 4,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Industrialization",
-        "uniques": ["[+3 Culture, +3 Gold] from every [Wonder]", "Can only be built <in cities with a [Wonder]>"],
+        "uniques": ["[+3 Culture, +3 Gold] from every [Wonder]",
+					"Can only be built <in cities with a [Wonder]>"],
 		"quote": "'I hear and answer the prayer of the suppliant when he calls to Me. So let them respond to My call and believe in Me.' - The Quran"
     },
 
@@ -636,7 +729,9 @@
 		"gold": 5,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Architecture",
-        "uniques": ["[+50]% Golden Age length", "Must be next to [Plains]"],
+        "uniques": ["[+50]% Golden Age length",
+					"Must be next to [Plains]",
+					"Only available <when number of [Civ VII] is equal to [1]>"],
 		"quote": "'We are never so defenseless against suffering as when we love, never so helplessly unhappy as when we have lost our loved object or its love.' - Sigmund Freud"
     },
 
