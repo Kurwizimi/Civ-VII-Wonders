@@ -707,7 +707,7 @@
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Combustion",
         "uniques": ["[+6] population [in this city]",
-					"Must be next to [Coast]".
+					"Must be next to [Coast]",
 					"Only available <when number of [Civ VII] is equal to [1]>"],
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free. I lift my lamp beside the golden door.' - Emma Lazarus"
     },
