@@ -1,4 +1,4 @@
 {
   "name": "Global uniques",
-	"uniques": ["Triggers a [Select] event <upon discovering [Agriculture] technology>",]
+	"uniques": ["Triggers a [Select] event <upon entering the [Ancient era]>"]
 }
