@@ -1,4 +1,4 @@
 {
   "name": "Global uniques",
-	"uniques": ["Triggers a [Select] event <upon founding a city> <when number of [Cities] is less than [1]> <for [Human player] Civilizations> <hidden from users>"]
+	"uniques": ["Triggers a [Select] event <upon turn end. <after turn number [1]> <before turn number [2]> <for [Human player] Civilizations> <hidden from users>"]
 }
