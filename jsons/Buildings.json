@@ -20,7 +20,7 @@
         "uniques": ["Comment [Provides 1 of all Specialist slots]",
 					"Comment [Provides 1 of all Great People Points]",
 					"Must be next to [River]",
-					"Only available <when number of [Civ VII] is equal to [1]>"],
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
         "quote": "'All beings who are plunged into the ocean of existence, may I draw them out by virtue of this good work.' - Jayavarman VII, To Prohm"
     },
 	{
@@ -43,7 +43,7 @@
         "requiredTech": "Drama and Poetry",
         "uniques": ["[+1 Happiness] <for every [ [[Happiness] Buildings] / 2 ]> <hidden from users>",
 					"Comment [+1 [Happiness] for every 2 [Happiness] Buildings]",
-					"Only available <when number of [Civ VII] is equal to [1]>"], 
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
 		//+2 Happiness on all happines buildings in this city? +1 Happiness on all happines and culture in this city?
         "quote": "'While stands the Colosseum, Rome shall stand. When falls the Colosseum, Rome shall fall, and when Rome falls, with it shall fall the world' - The Venerable Bede"
     },
@@ -56,7 +56,7 @@
         "requiredTech": "Optics",
         "uniques": ["[+1 Gold] from [resource] tiles [in this city]",
 					"Must be next to [Coast]",
-					"Only available <when number of [Civ VII] is equal to [1]>"], 
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
         "quote": "'He doth bestride the narrow world, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare"
     },
 
@@ -103,7 +103,7 @@
         "requiredTech": "Mathematics",
         "uniques": ["[+1 Science] from all [Science] buildings",
 					"[+1 Science] per [3] population [in this city]",
-					"Only available <when number of [Civ VII] is equal to [1]>"], 
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
         "quote": "'The place for the cure of the soul.' - Inscription over the door at the library"
     },
 
@@ -116,7 +116,7 @@
         "uniques": ["[+1] Sight <for [Water] units>",
 					"Land units may cross [Ocean] tiles after the first [Great Merchant] is earned",
 					"Must be next to [Coast]",
-					"Only available <when number of [Civ VII] is equal to [1]>"], 
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
         "quote": "'He built the tower at Pharos, the greatest and most beautiful work of all, so that a light might shine for sailors far across the sea.' - Lucian of Samosata"
     },
 
@@ -155,7 +155,7 @@
         "uniques": ["[+1 Food] from [Farm] tiles [in this city]",
 					"[+10]% growth [in all cities]",
 					"Must be next to [River]",
-					"Only available <when number of [Civ VII] is equal to [1]>"], 
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
         "quote": "'The canal-water gushes from above into the gardens; fragrance pervades the walkways, streams of water as numerous as the stars of heaven flow in the pleasure garden.' - Ashurbanipal"
     },
 
@@ -171,7 +171,7 @@
 					"All newly-trained [Tank] units [in all cities] receive the [Artemisia VII] promotion", "All newly-trained [Modern Armor] units [in all cities] receive the [Artemisia VIII] promotion",
 					"Comment [The first time a Mounted or Armoured unit is destroyed, it will respawn at your capital.]",
 					"Must be next to [Coast]",
-					"Only available <when number of [Civ VII] is equal to [1]>"], 
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
         "quote": "'A vast tomb lies over me in Halicarnassus, of such dimensions, of such exquisite beauty as no other shade can boast.' - Lucian of Samosata"
     },
 
@@ -241,12 +241,12 @@
 					"Gain [80] [Culture] <upon ending a Golden Age> <during the [Atomic era]> <hidden from users>",
 					"Gain [90] [Culture] <upon ending a Golden Age> <during the [Information era]> <hidden from users>",
 					"Gain [100] [Culture] <upon ending a Golden Age> <during the [Future era]> <hidden from users>",
-					"Only available <when number of [Civ VII] is equal to [1]>"], 
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
         "quote": "'Remain less interested in who we imagine ourselves to be than in what we can do for one another.' - Paul Gilroy"
     },
 
 	{
-        "name": "Petra",
+        "name": "Raqmu",
         "isWonder": true,
 		"gold": 2,
 		"greatPersonPoints": { "Great Merchant": 1},
@@ -255,7 +255,7 @@
 					"[+1 Gold] from [{Open terrain} {Desert}] tiles [in all cities]",
 					"[+1 Production, +1 Gold] from [Desert] tiles [in this city]",
 					"Must be next to [Desert]",
-					"Only available <when number of [Civ VII] is equal to [1]>"], 
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
         "quote": "'Sedentary life is civilization's goal. It marks the end of its life and heralds its corruption.' - Ibn Khaldun"
     },
 
@@ -279,7 +279,7 @@
         "uniques": ["[+1 Production, +2 Gold] from [River] tiles [in this city]",
 					"Must be next to [River]",
 					"Must not be on [Tundra]",
-					"Only available <when number of [Civ VII] is equal to [1]>"], 
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
         "quote": "'Soldiers, from the summit of these pyramids, forty centuries of history look down upon you!' - Napoleon Bonaparte"
     },
 
@@ -296,14 +296,14 @@
     },
 
 	{
-        "name": "Terracotta Army",
+        "name": "The Terracotta Army",
         "isWonder": true,
 		"production": 2,
         "requiredTech": "Iron Working",
         "uniques": ["Free [Great General] appears",
 					"[+50]% XP gained from combat",
 					"Must be next to [Grassland]",
-					"Only available <when number of [Civ VII] is equal to [1]>"], 
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
         "quote": "'After the battle many new ghosts cry.' - Du Fu"
     },
 
@@ -369,7 +369,7 @@
     },
 
 	{
-        "name": "Forbidden City",
+        "name": "The Forbidden City",
         "isWonder": true,
 		"culture": 4,
 		"greatPersonPoints": { "Great Engineer": 1},
@@ -378,7 +378,7 @@
 					"[+1 Culture, +1 Gold] from every [Castle]",
 					"[+1 Culture, +1 Gold] from every [Arsenal]",
 					"[+1 Culture, +1 Gold] from every [Military Base]",
-					"Only available <when number of [Civ VII] is equal to [1]>"],
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'The past is the treasure, time is its hiding place.' - Gail Mazur"
     },
 
@@ -435,7 +435,7 @@
         "requiredTech": "Architecture",
         "uniques": ["[+1 Gold, +1 Culture] from [Land] tiles [in this city] <for every adjacent [Mountain]>",
 					"Must have an owned [Mountain] within [2] tiles",
-					"Only available <when number of [Civ VII] is equal to [1]>"],
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'Thou who dwell in the high heavens, among the tempest's clouds - accept our sacrifice.' - Inca prayer to Viracocha"
     },
 
@@ -450,14 +450,14 @@
     },
 
 	{
-        "name": "Notre Dame",
+        "name": "Notre Dame de Paris",
         "isWonder": true,
 		"happiness": 4,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Physics",
         "uniques": ["[+2 Culture] from every specialist [in all cities] <during a Golden Age>",
 					"Empire enters golden age",
-					"Only available <when number of [Civ VII] is equal to [1]>"],
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'The echoes of our glory and our losses, of our victories and our disasters, have always resounded under those vaults.' - André Chamson"
     },
 
@@ -576,12 +576,12 @@
     },
 
 	{
-        "name": "Brandenburg Gate",
+        "name": "Brandenburger Tor",
         "isWonder": true,
 		"production": 6,
         "requiredTech": "Military Science",
         "uniques": ["[-15]% unhappiness from the number of cities",
-					"Only available <when number of [Civ VII] is equal to [1]>"],
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'Not through speeches will the great questions of the day be decided, but by iron and blood.' - Otto von Bismarck"
     },
 
@@ -621,13 +621,13 @@
     },
 
 	{
-        "name": "Eiffel Tower",
+        "name": "Tour Eiffel",
         "isWonder": true,
 		"culture": 5,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Radio",
         "uniques": ["[+1 Culture] from all [Happiness] buildings",
-					"Only available <when number of [Civ VII] is equal to [1]>"],
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'The Tower can live on itself: one can dream there, eat there, observe there, understand there; one can feel oneself cut off from the world and yet the owner of a world.' - Roland Barthes"
     },
 
@@ -651,7 +651,7 @@
         "requiredTech": "Rifling",
         "uniques": ["[-100]% maintenance cost for [Culture] buildings [in all cities]",
 					"Must be next to [Tundra]",
-					"Only available <when number of [Civ VII] is equal to [1]>"],
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'Every passion borders on the chaotic, but the collector's passion borders on the chaos of memories.' - Walter Benjamin"
     },
 
@@ -674,7 +674,7 @@
 		"greatPersonPoints": { "Great Scientist": 1},
         "requiredTech": "Scientific Theory",
         "uniques": ["[2] free random researchable Tech(s) from the [Industrial era]",
-					"Only available <when number of [Civ VII] is equal to [1]>"],
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'I wonder anybody does anything at Oxford but dream and remember.' - William Butler Yeats"
     },
 
@@ -701,14 +701,14 @@
     },
 
 	{
-        "name": "Statue of Liberty",
+        "name": "The Statue of Liberty",
         "isWonder": true,
 		"happiness": 6,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Combustion",
         "uniques": ["[+6] population [in this city]",
 					"Must be next to [Coast]",
-					"Only available <when number of [Civ VII] is equal to [1]>"],
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free. I lift my lamp beside the golden door.' - Emma Lazarus"
     },
 
@@ -724,14 +724,14 @@
     },
 
 	{
-        "name": "Taj Mahal",
+        "name": "The Taj Mahal",
         "isWonder": true,
 		"gold": 5,
 		"greatPersonPoints": { "Great Artist": 1},
         "requiredTech": "Architecture",
         "uniques": ["[+50]% Golden Age length",
 					"Must be next to [Plains]",
-					"Only available <when number of [Civ VII] is equal to [1]>"],
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'We are never so defenseless against suffering as when we love, never so helplessly unhappy as when we have lost our loved object or its love.' - Sigmund Freud"
     },
 
