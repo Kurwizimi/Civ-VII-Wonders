@@ -160,6 +160,18 @@
     },
 
 	{
+        "name": "Hoo-do Hall",
+        "isWonder": true,
+		"production": 2,
+		"greatPersonPoints": { "Great Artist": 1},
+        "requiredTech": "Civil Service",
+        "uniques": ["[+1 Production] from [{unimproved} {Land}] tiles [in this city]",
+					"[+1 Culture] from [{unimproved} {Water rescorce}] tiles [in this city]",
+					"Must be next to [River]"], 
+        "quote": "'In these droplets of dew, I wash off the dust of the world.' - Basho"
+    },
+
+	{
         "name": "Mausoleum at Halicarnassus",
         "isWonder": true,
 		"production": 3,
@@ -185,6 +197,17 @@
 					"[+50]% Health from pillaging tiles",
 					"Must be next to [Coast]"], 
         "quote": "'Better it is for every man to avenge his friend than mourn him.' - Beowulf"
+    },
+
+	{
+        "name": "Mireuksa",
+        "isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": { "Great Engineer": 1},
+        "requiredTech": "Engineering",
+        "uniques": ["[+2 Productioj] from all [Happiness] buildings",
+					"Must have an owned [Jungle] within [2] tiles"], 
+        "quote": "'Knowing enough is not humiliating; knowing when to stop is not dangerous.' - Tao Te Ching"
     },
 
 	{
@@ -415,6 +438,21 @@
         "uniques": ["[+30]% [Gold] [in all cities] <on foreign continents>",
 					"Must be next to [Coast]"],
 		"quote": "'In the immediate nearness of the gold, all else had been forgotten.' - Robert Louis Stevenson"
+    },
+
+	{
+        "name": "Himeji Castle",
+        "isWonder": true,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"greatPersonPoints": { "Great General": 1},
+        "requiredTech": "Chivalry",
+        "uniques": ["[+2 Culture] from [Fort] tiles [in all cities]", 
+					"[+4 Culture] from [Citadel] tiles [in all cities]",
+					"[Military] Units adjacent to this city heal [5] HP per turn when healing",
+					"Must be on [Hill]",
+					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
+        "quote": "'Eighteen times I have escaped from ten thousand deaths.' - Tokugawa Ieyasu"
     },
 
 	{
@@ -665,6 +703,18 @@
 					"[+1 Food] from [Fresh Water] tiles [in this city]",
 					"Must be next to [Lakes]"],
 		"quote": "'Princes are like pythons. They swallow each other.' - Mwanga II"
+    },
+
+	{
+        "name": "Nirayama Reverberatory Furnace",
+        "isWonder": true,
+		"greatPersonPoints": { "Great Engineer": 1,
+							   "Great Admiral": 1},
+        "requiredTech": "Steam Power",
+        "uniques": ["[+1 Production, +1 Science] from [Mine] tiles [in this city]",
+					"[+1 Production] from [{Hill} {resource}] tiles [in all cities]",
+					"Must have an owned [Mine] within [2] tiles"],
+		"quote": "'Knowledge shall be sought throughout the world so as to strengthen the foundations of imperial rule.' - Emperor Meiji"
     },
 
 	{
