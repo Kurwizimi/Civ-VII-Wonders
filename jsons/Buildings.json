@@ -205,8 +205,8 @@
 		"culture": 1,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Engineering",
-        "uniques": ["[+2 Productioj] from all [Happiness] buildings",
-					"Must have an owned [Jungle] within [2] tiles"], 
+        "uniques": ["[+2 Production] from all [Happiness] buildings",
+					"Must have an owned [Mountain] within [2] tiles"], 
         "quote": "'Knowing enough is not humiliating; knowing when to stop is not dangerous.' - Tao Te Ching"
     },
 
