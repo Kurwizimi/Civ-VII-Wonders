@@ -366,7 +366,18 @@
         "requiredTech": "Guilds",
         "uniques": ["[+2 Happiness] in cities on [River] tiles",
 					"Must be next to [River]"], 
-        "quote": "' mortal ripens like corn, like corn he springs up again.' - The Katha Upanishad"
+        "quote": "'A mortal ripens like corn, like corn he springs up again.' - The Katha Upanishad"
+    },
+
+	{
+        "name": "Buseoksa",
+        "isWonder": true,
+		"greatPersonPoints": { "Great Merchant": 1},
+        "requiredTech": "Acoustics",
+        "uniques": ["[+1 Happiness] [in all cities] <within [1] tiles of a [Great Improvement]>",
+					"[[+1 Happiness, +2 Gold] [in this city] <for every adjacent [Great Improvement]>",
+					"Must have an owned [Mountain] within [2] tiles"],
+        "quote": "'Water and stone, bamboo and pine. The moon rising over the eastern hill. What other companions should I wish for?' - Yun Sondo"
     },
 
 	{
@@ -691,6 +702,17 @@
 					"Must be next to [Tundra]",
 					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'Every passion borders on the chaotic, but the collector's passion borders on the chaos of memories.' - Walter Benjamin"
+    },
+
+	{
+        "name": "Hwaseong",
+        "isWonder": true,
+		"greatPersonPoints": { "Great Admiral": 1},
+        "requiredTech": "Rifling",
+        "uniques": ["Comment [Provides the cheapest [Culture] building in all your cities for free]",
+					"Provides the cheapest [Culture] building in your first [9999] cities for free <hidden from users>",
+					"Must be next to [Hill]",],
+        "quote": "Be like a mountain' - Yi Sun-sin"
     },
 
 	{
