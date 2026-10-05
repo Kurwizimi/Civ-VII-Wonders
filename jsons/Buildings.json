@@ -331,6 +331,16 @@
     },
 
 	{
+        "name": "Vix",
+        "isWonder": true,
+		"culture": 1,
+        "requiredTech": "Iron Working",
+        "uniques": ["[+1 Culture, +1 Gold] from all [pre-[Medieval era]] buildings <in this city>",
+					"[+2 Gold] in cities on [Hill] tiles"], 
+        "quote": "'Both the Druids and others say that men's souls and the universe are indestructible, though at some point, both fire and water will overcome them.' - Strabo"
+    },
+
+	{
         "name": "Weiyang Palace",
         "isWonder": true,
 		"culture": 1,
@@ -414,6 +424,17 @@
 					"[+1 Culture, +1 Gold] from every [Military Base]",
 					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'The past is the treasure, time is its hiding place.' - Gail Mazur"
+    },
+
+	{
+        "name": "Globe Theatre",
+        "isWonder": true,
+		"culture": 2,
+        "requiredTech": "Printing Press",
+        "uniques": ["[+1 Gold] from all [Culture] buildings",
+					"[Gold] cost of purchasing [Culture] buildings [-20%]%",
+					"Must be next to [River]"], 
+        "quote": "'When we are born, we cry that we are come to this great stage of fools' - William Shakespeare"
     },
 
 	{
