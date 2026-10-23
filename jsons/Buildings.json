@@ -1,7 +1,5 @@
 [
-
-		//Antiquity
-	
+		//Antiquity	
 	{
         "name": "Angkôrvôtt",
         "isWonder": true,
@@ -44,7 +42,7 @@
         "uniques": ["[+1 Happiness] <for every [ [[Happiness] Buildings] / 2 ]> <hidden from users>",
 					"Comment [+1 [Happiness] for every 2 [Happiness] Buildings]",
 					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"], 
-		//+2 Happiness on all happines buildings in this city? +1 Happiness on all happines and culture in this city?
+		//+2 Happiness on all happiness buildings in this city? +1 Happiness on all happiness and culture in this city?
         "quote": "'While stands the Colosseum, Rome shall stand. When falls the Colosseum, Rome shall fall, and when Rome falls, with it shall fall the world' - The Venerable Bede"
     },
 
@@ -525,7 +523,7 @@
 		"happiness": 4,
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Physics",
-        "uniques": ["[+2 Culture] from every specialist [in all cities] <during a Golden Age>",
+        "uniques": ["[+2 Culture] from every [Specialist] [in all cities] <during a Golden Age>",
 					"Empire enters golden age",
 					"Only available <when number of [[Civ VII] resource of [Human player] Civilizations] is equal to [1]>"],
 		"quote": "'The echoes of our glory and our losses, of our victories and our disasters, have always resounded under those vaults.' - André Chamson"
@@ -581,7 +579,7 @@
 		"specialistSlots": {"Administrator": 1,},
         "requiredTech": "Gunpowder",
         "uniques": ["Gain a free [Castle] [in this city]",
-					"Comment [Gain +1 Administrator Specialist]"], //Comment on unique specialist
+					"Comment [Gain +1 Administrator Specialist]"],
 		"quote": "'If heroes remained home to die by the fire, would their names be inscribed upon bamboo and silk for all eternity?' - Trần Hưng Đạo"
     },
 
@@ -604,7 +602,7 @@
 		"gold": 2,
 		"greatPersonPoints": { "Great Merchant": 1},
         "requiredTech": "Banking",
-        "uniques": ["[Comment [+2 [Gold], +1 [Production] from Luxury resource tiles in this city, doubled if in [Desert]]",
+        "uniques": ["Comment [+2 [Gold], +1 [Production] from Luxury resource tiles in this city, doubled if in [Desert]]",
 					"[+2 Gold, +1 Production] from [Luxury resource] tiles [in this city] <hidden from users>",
 					"[+2 Gold, +1 Production] from [{Desert} {Luxury resource}] tiles [in this city] <hidden from users>"],
 		"quote": "'Wherever you may be, death will overtake you. Even if you should be in towers of lofty construction.' - The Quran"
