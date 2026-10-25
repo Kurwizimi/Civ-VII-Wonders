@@ -706,7 +706,7 @@
 		"greatPersonPoints": { "Great Engineer": 1},
         "requiredTech": "Refrigeration",
         "uniques": ["[-50]% Food consumption by specialists [in all cities]",
-					"[+2 Food] from every specialist [in this city]",
+					"[+2 Food] from every [Specialist] [in this city]",
 					"Must be next to [Desert]"],
 		"quote": "'The garden was clad in robes of spring, and the air was filled with sweet sounds of music and song.' - Firdawsī"
     },
